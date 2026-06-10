@@ -122,8 +122,8 @@ export default function Header() {
       </nav>
 
       {/* Mobile Nav Header */}
-      <nav id="mobile-nav" className="fixed top-0 w-full z-50 bg-transparent border-b border-transparent transition-all duration-500 ease-in-out flex md:hidden items-center px-margin-mobile py-4 relative" aria-label="Mobile navigation">
-        <Link href="/" className="flex items-center gap-3 group absolute left-1/2 -translate-x-1/2">
+      <nav id="mobile-nav" className="fixed top-0 w-full z-50 bg-transparent border-b border-transparent transition-all duration-500 ease-in-out flex md:hidden items-center justify-between px-margin-mobile py-4" aria-label="Mobile navigation">
+        <Link href="/" className="flex items-center group relative z-10" aria-label="Home">
           <div className="relative w-[44px] h-[44px]">
             <div className="absolute inset-0 bg-burnished-gold/20 blur-lg rounded-full scale-150"></div>
             <Image 
@@ -135,18 +135,20 @@ export default function Header() {
               className="relative object-contain transition-transform group-hover:scale-105 duration-500" 
             />
           </div>
-          <div className="flex flex-col items-center justify-center">
-            <span className="kaisei-decol-regular text-[16px] text-white leading-none tracking-widest uppercase">
-              TRANSPARENT
-            </span>
-            <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-burnished-gold/40 to-transparent my-1"></div>
-            <span className="font-label-md text-[8.5px] text-burnished-gold tracking-[0.8em] mr-[-0.8em] uppercase">
-              VISAS
-            </span>
-          </div>
         </Link>
+
+        <Link href="/" className="flex flex-col items-center justify-center absolute left-1/2 -translate-x-1/2 group text-center" aria-label="Home">
+          <span className="kaisei-decol-regular text-[16px] text-white leading-none tracking-widest uppercase">
+            TRANSPARENT
+          </span>
+          <div className="w-full h-[1px] bg-gradient-to-r from-transparent via-burnished-gold/40 to-transparent my-1"></div>
+          <span className="font-label-md text-[8.5px] text-burnished-gold tracking-[0.8em] mr-[-0.8em] uppercase">
+            VISAS
+          </span>
+        </Link>
+
         <button 
-          className="text-burnished-gold p-2 ml-auto"
+          className="text-burnished-gold p-2 relative z-10"
           onClick={() => setIsOpen(true)}
           aria-expanded={isOpen}
           aria-controls="mobile-menu"
