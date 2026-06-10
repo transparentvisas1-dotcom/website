@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Aureum Travel - Destinations</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&amp;family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Configuration -->
+<script id="tailwind-config">
+        tailwind.config = {
+          darkMode: "class",
+          theme: {
+            extend: {
+              "colors": {
+                      "surface-dim": "#131313",
+                      "burnished-gold": "#A67C00",
+                      "outline-variant": "#4d4635",
+                      "on-surface": "#e5e2e1",
+                      "primary-container": "#d4af37",
+                      "tertiary-container": "#caae8c",
+                      "surface-tint": "#e9c349",
+                      "obsidian-deep": "#0A0A0A",
+                      "primary-fixed-dim": "#e9c349",
+                      "sand-muted": "#C2B280",
+                      "on-primary-container": "#554300",
+                      "on-primary": "#3c2f00",
+                      "secondary-fixed-dim": "#d6c59d",
+                      "inverse-surface": "#e5e2e1",
+                      "inverse-on-surface": "#313030",
+                      "primary": "#f2ca50",
+                      "charcoal-surface": "#1F1F1F",
+                      "tertiary-fixed-dim": "#dfc29f",
+                      "inverse-primary": "#735c00",
+                      "on-background": "#e5e2e1",
+                      "surface-container": "#201f1f",
+                      "on-primary-fixed-variant": "#574500",
+                      "tertiary": "#e7c9a6",
+                      "champagne-highlight": "#F7E7CE",
+                      "error-container": "#93000a",
+                      "outline": "#99907c",
+                      "error": "#ffb4ab",
+                      "secondary": "#d6c59d",
+                      "on-error-container": "#ffdad6",
+                      "on-tertiary": "#3f2d15",
+                      "secondary-container": "#514627",
+                      "on-surface-variant": "#d0c5af",
+                      "surface": "#131313",
+                      "on-secondary-fixed-variant": "#514627",
+                      "on-secondary-container": "#c4b48d",
+                      "surface-container-high": "#2a2a2a",
+                      "background": "#131313",
+                      "secondary-fixed": "#f3e1b7",
+                      "primary-fixed": "#ffe088",
+                      "on-primary-fixed": "#241a00",
+                      "surface-bright": "#393939",
+                      "on-secondary-fixed": "#231b02",
+                      "on-error": "#690005",
+                      "on-tertiary-fixed": "#281903",
+                      "surface-variant": "#353534",
+                      "surface-container-lowest": "#0e0e0e",
+                      "tertiary-fixed": "#fcdeba",
+                      "on-tertiary-fixed-variant": "#574329",
+                      "surface-container-highest": "#353534",
+                      "on-secondary": "#392f13",
+                      "on-tertiary-container": "#554127",
+                      "surface-container-low": "#1c1b1b"
+              },
+              "borderRadius": {
+                      "DEFAULT": "0.125rem",
+                      "lg": "0.25rem",
+                      "xl": "0.5rem",
+                      "full": "0.75rem"
+              },
+              "spacing": {
+                      "margin-desktop": "80px",
+                      "container-max": "1440px",
+                      "gutter": "32px",
+                      "margin-mobile": "24px",
+                      "unit": "8px"
+              },
+              "fontFamily": {
+                      "headline-md": [
+                              "EB Garamond"
+                      ],
+                      "headline-lg-mobile": [
+                              "EB Garamond"
+                      ],
+                      "caption": [
+                              "Hanken Grotesk"
+                      ],
+                      "label-md": [
+                              "Hanken Grotesk"
+                      ],
+                      "headline-lg": [
+                              "EB Garamond"
+                      ],
+                      "display-lg": [
+                              "EB Garamond"
+                      ],
+                      "body-md": [
+                              "Hanken Grotesk"
+                      ],
+                      "body-lg": [
+                              "Hanken Grotesk"
+                      ]
+              },
+              "fontSize": {
+                      "headline-md": [
+                              "32px",
+                              {
+                                      "lineHeight": "40px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "headline-lg-mobile": [
+                              "36px",
+                              {
+                                      "lineHeight": "44px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "caption": [
+                              "12px",
+                              {
+                                      "lineHeight": "16px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "label-md": [
+                              "14px",
+                              {
+                                      "lineHeight": "20px",
+                                      "letterSpacing": "0.1em",
+                                      "fontWeight": "600"
+                              }
+                      ],
+                      "headline-lg": [
+                              "48px",
+                              {
+                                      "lineHeight": "56px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "display-lg": [
+                              "72px",
+                              {
+                                      "lineHeight": "80px",
+                                      "letterSpacing": "-0.02em",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "body-md": [
+                              "16px",
+                              {
+                                      "lineHeight": "24px",
+                                      "fontWeight": "400"
+                              }
+                      ],
+                      "body-lg": [
+                              "18px",
+                              {
+                                      "lineHeight": "28px",
+                                      "fontWeight": "400"
+                              }
+                      ]
+              }
+            }
+          }
+        }
+    </script>
+<style>
+        body {
+            background-color: #0A0A0A;
+            color: #e5e2e1;
+        }
+        /* Custom scrollbar for horizontal filters */
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="antialiased min-h-screen flex flex-col font-body-md text-body-md">
+<!-- TopNavBar Component -->
+<header class="fixed top-0 w-full z-50 bg-obsidian-deep/80 backdrop-blur-xl border-b border-champagne-highlight/15 transition-all duration-500 ease-in-out">
+<div class="flex justify-between items-center px-margin-mobile md:px-margin-desktop py-6 w-full max-w-container-max mx-auto">
+<!-- Brand Logo -->
+<a class="font-headline-md text-headline-md text-burnished-gold" href="#">
+                AUREUM TRAVEL
+            </a>
+<!-- Navigation Links (Web) -->
+<nav class="hidden md:flex gap-12 items-center">
+<a class="font-label-md text-label-md uppercase tracking-widest text-burnished-gold border-b border-burnished-gold pb-1 hover:bg-white/5 hover:text-champagne-highlight" href="#">Destinations</a>
+<a class="font-label-md text-label-md uppercase tracking-widest text-on-surface hover:text-burnished-gold transition-colors duration-300 hover:bg-white/5 hover:text-champagne-highlight" href="#">Experiences</a>
+<a class="font-label-md text-label-md uppercase tracking-widest text-on-surface hover:text-burnished-gold transition-colors duration-300 hover:bg-white/5 hover:text-champagne-highlight" href="#">Services</a>
+<a class="font-label-md text-label-md uppercase tracking-widest text-on-surface hover:text-burnished-gold transition-colors duration-300 hover:bg-white/5 hover:text-champagne-highlight" href="#">About</a>
+</nav>
+<!-- Actions -->
+<div class="flex items-center gap-6">
+<button class="hidden md:inline-flex bg-burnished-gold text-obsidian-deep font-label-md text-label-md uppercase tracking-widest px-8 py-3 rounded-DEFAULT hover:bg-champagne-highlight transition-colors duration-300">
+                    Inquire
+                </button>
+<button aria-label="person" class="text-on-surface hover:text-champagne-highlight transition-colors duration-300">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 0;">person</span>
+</button>
+<!-- Mobile Menu Toggle -->
+<button aria-label="menu" class="md:hidden text-on-surface hover:text-champagne-highlight transition-colors duration-300">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</div>
+</header>
+<!-- Main Content Canvas -->
+<main class="flex-grow pt-32 pb-24">
+<!-- Page Header -->
+<section class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto py-16 text-center">
+<h1 class="font-display-lg text-headline-lg-mobile md:text-display-lg text-burnished-gold mb-6">Curated Enclaves</h1>
+<p class="font-body-lg text-body-lg text-sand-muted max-w-2xl mx-auto">
+                Discover our hand-selected portfolio of the world's most remote, exclusive, and breathtaking destinations. Designed for the discerning traveler seeking absolute privacy and unparalleled luxury.
+            </p>
+</section>
+<!-- Filters -->
+<section class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto mb-16">
+<div class="flex overflow-x-auto hide-scrollbar gap-4 justify-start md:justify-center py-4 border-b border-outline-variant/30">
+<button class="whitespace-nowrap px-6 py-2 rounded-full border border-burnished-gold text-burnished-gold bg-burnished-gold/10 font-label-md text-label-md uppercase tracking-widest transition-all">All</button>
+<button class="whitespace-nowrap px-6 py-2 rounded-full border border-transparent text-sand-muted hover:text-champagne-highlight hover:border-outline-variant transition-all font-label-md text-label-md uppercase tracking-widest">Beach</button>
+<button class="whitespace-nowrap px-6 py-2 rounded-full border border-transparent text-sand-muted hover:text-champagne-highlight hover:border-outline-variant transition-all font-label-md text-label-md uppercase tracking-widest">Safari</button>
+<button class="whitespace-nowrap px-6 py-2 rounded-full border border-transparent text-sand-muted hover:text-champagne-highlight hover:border-outline-variant transition-all font-label-md text-label-md uppercase tracking-widest">Cultural</button>
+<button class="whitespace-nowrap px-6 py-2 rounded-full border border-transparent text-sand-muted hover:text-champagne-highlight hover:border-outline-variant transition-all font-label-md text-label-md uppercase tracking-widest">Urban</button>
+</div>
+</section>
+<!-- Destinations Grid (Bento/Asymmetric Inspiration) -->
+<section class="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- Card 1 (Large) -->
+<article class="group relative overflow-hidden bg-charcoal-surface rounded-DEFAULT border border-outline-variant/30 md:col-span-2 lg:col-span-2 aspect-[16/9] md:aspect-auto md:min-h-[500px]">
+<img class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="An expansive, cinematic aerial view of a pristine, secluded tropical beach at twilight. The scene is imbued with a luxurious, dark aesthetic, featuring deep sapphire blue waters gently lapping against powdery white sands. Subtle golden hour light reflects off the water, creating a luminous, sophisticated contrast against the encroaching deep shadows of the surrounding lush, obsidian-green coastal cliffs. The mood is tranquil, exclusive, and evocative of ultra-luxury travel." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAhwCEeO9eiHmjt4_7ROObt3IAaOt1LIVKhpFZBb1ANiTb1QKyil0Zil3GTu1Fc-6ls5UBCRoV7ZCvDtBQCIvZgwwU6B7zu5NfvN3WSsrReDuW1JWpz12D9s57AnQtpZzJocgtIi50PTTD4cGthjzXclz6A3_pyjJZ6yuaK1CtlxO138bQsBDHQ8fyOMMNkMkML9K90RuVbzG9DbJzM0Z4Kto9wbsEdL9uKwlOXqooBWGoyYMvt0Xw22wwsZtcBEYuqBsLiU40lV64"/>
+<!-- Dark Film Gradient -->
+<div class="absolute inset-0 bg-gradient-to-t from-obsidian-deep via-obsidian-deep/50 to-transparent pointer-events-none"></div>
+<div class="absolute bottom-0 left-0 w-full p-8 md:p-12 flex flex-col justify-end">
+<span class="font-label-md text-label-md uppercase tracking-widest text-champagne-highlight mb-3">Beach Enclave</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-burnished-gold mb-4 drop-shadow-md">The Maldivian Atolls</h2>
+<p class="font-body-md text-body-md text-sand-muted max-w-md hidden md:block">
+                        Private overwater sanctuaries accessible only by seaplane. Experience absolute isolation surrounded by vibrant coral reefs and endless azure horizons.
+                    </p>
+</div>
+<!-- Gilded Edge effect on hover -->
+<div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-burnished-gold to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+</article>
+<!-- Card 2 (Standard) -->
+<article class="group relative overflow-hidden bg-charcoal-surface rounded-DEFAULT border border-outline-variant/30 aspect-[4/5] min-h-[400px]">
+<img class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="A dramatic, low-key photograph of a solitary luxury safari tent glowing warmly from within against the vast, pitch-black African savanna night. The scene captures an upscale, minimalist aesthetic with deep, obsidian shadows punctuated by the golden, amber light spilling from the canvas structure. The overall atmosphere is quietly luxurious, remote, and adventurous, perfectly suited for a high-end travel portfolio." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSfc7P-2mHiGbH_aqhlwTH770MPD25oKTZJsmdwG1yoV8Mv9aw9Pf_BU9wa6OfKB5Ugqj22Pk4KeLFBNnl7McNr0eAhF2olDVYX2AlzOolBXOLH3WEfcvKJXDytrhpuOsByYKs254Ggt5KtdWsuUNNq00DurQwPw1K81be2uXKlewVsoE-UewAbL8dV13oUShnAJjm2KH7vyMs7rHmoDzL4jdha92USRJQ3sBfh76rQrYDuSArVGgf4oLzuNwHvTL9_UHNiJe_Ur4"/>
+<div class="absolute inset-0 bg-gradient-to-t from-obsidian-deep via-obsidian-deep/60 to-transparent pointer-events-none"></div>
+<div class="absolute bottom-0 left-0 w-full p-6 flex flex-col justify-end">
+<span class="font-label-md text-label-md uppercase tracking-widest text-champagne-highlight mb-2">Safari</span>
+<h2 class="font-headline-md text-headline-md text-burnished-gold mb-2">Serengeti Reserves</h2>
+<p class="font-body-md text-body-md text-sand-muted line-clamp-2">
+                        Unobstructed wildlife encounters from the comfort of hyper-luxury mobile camps.
+                    </p>
+</div>
+</article>
+<!-- Card 3 (Standard) -->
+<article class="group relative overflow-hidden bg-charcoal-surface rounded-DEFAULT border border-outline-variant/30 aspect-[4/5] min-h-[400px]">
+<img class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="A moody, atmospheric shot of an ancient, minimalist stone courtyard in Kyoto during early morning mist. The aesthetic is dark and sophisticated, utilizing a color palette of deep charcoal greys, obsidian blacks, and subtle touches of burnished gold from a solitary, softly lit lantern. The composition emphasizes quiet luxury, heritage, and serene isolation." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAoh4viu-AQrh8pVhTQ-dqf3UXvV2AxVT8bkDndgqesVwxEQc8yRrCY9ev4uSaTH811SVzc3JjgAUhko9JzwRALkYKWnOLgCxfSdFkiBxovPrOm0bm_DaNp1vAXZ44QMBydQga5LXAntyBrP6gct8VX51rXix2il7vHkORp_rRGIjkM3PeoD24OmzwUS5H8cKZEcFCv1y5SRmddsZT11ORGcK0TnrNIv-LikJVLREU3hY-pd1-OJ3mS26YSlzv2rTiVI3-Kqy5Ete8"/>
+<div class="absolute inset-0 bg-gradient-to-t from-obsidian-deep via-obsidian-deep/60 to-transparent pointer-events-none"></div>
+<div class="absolute bottom-0 left-0 w-full p-6 flex flex-col justify-end">
+<span class="font-label-md text-label-md uppercase tracking-widest text-champagne-highlight mb-2">Cultural</span>
+<h2 class="font-headline-md text-headline-md text-burnished-gold mb-2">Kyoto Sanctuaries</h2>
+<p class="font-body-md text-body-md text-sand-muted line-clamp-2">
+                        Gain exclusive access to private temples and centuries-old tea houses closed to the public.
+                    </p>
+</div>
+</article>
+<!-- Card 4 (Standard) -->
+<article class="group relative overflow-hidden bg-charcoal-surface rounded-DEFAULT border border-outline-variant/30 aspect-[4/5] min-h-[400px]">
+<img class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="An elegant, night-time view of a grand Parisian avenue, rendered in a sophisticated, low-exposure style. Deep shadows engulf the classical architecture, while subtle, warm golden streetlights cast a luminous glow over the polished cobblestones. The scene exudes an ultra-premium, mysterious urban luxury vibe, focusing on rich textures and a restrained color palette of obsidian and champagne." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCAoC1hDmzfVCZTCYg2OymhfASP1BS1yWHDkk_rX0PXteRr4TXi9DIrBzihUXW5yS6arHTSg3FWs9uRWKBAhstw5JkABl3OCxy4Kg6bmtoP-kwAV3AoYkpR5ahYLOBlty4_AZ68lugBVw0Z-pCePyZcreSqyvY_BAxG7HipRrvfO5T0IiGXUGxH0Mp7mh8QQDLQm5Jd_HssMpJE3KGQ3hmehqVO_OuuFUqTUAb4pAa0W7omqn1WWFV1uJP7AzR35WCTy7ttf3hOECw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-obsidian-deep via-obsidian-deep/60 to-transparent pointer-events-none"></div>
+<div class="absolute bottom-0 left-0 w-full p-6 flex flex-col justify-end">
+<span class="font-label-md text-label-md uppercase tracking-widest text-champagne-highlight mb-2">Urban</span>
+<h2 class="font-headline-md text-headline-md text-burnished-gold mb-2">Parisian Elegance</h2>
+<p class="font-body-md text-body-md text-sand-muted line-clamp-2">
+                        Penthouse suites with sweeping views of the Seine and after-hours private museum tours.
+                    </p>
+</div>
+</article>
+<!-- Card 5 (Large) -->
+<article class="group relative overflow-hidden bg-charcoal-surface rounded-DEFAULT border border-outline-variant/30 md:col-span-2 lg:col-span-2 aspect-[16/9] md:aspect-auto md:min-h-[400px]">
+<img class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="A striking, high-contrast image of jagged, snow-capped Alpine peaks under a starlit, ink-black sky. The minimalist composition focuses on the dramatic silhouette of the mountains against the dark canvas, with a solitary, ultra-luxury modern chalet illuminated with warm, inviting amber light nestled in the valley. The aesthetic is stark, premium, and evocative of exclusive winter retreats." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMr-6KPCMOXT0ufLWdMIHMi8rkvmObtS5Q9ClvtiMYQuzAHa4WZL_feyct0Ip4B23z-14xSPP9Gojq5vODpt78oTOduBMHencyuAhNd-gUrJKojqsd93qnzuT2LxrIfApZIwe8MxcDdIXpODd53udn6Ohdqw0VuH33KMN2R8-m4opqAEouVjWyHCBlsX8Dk--8vz15LCFiakwPFKn9bDQyCt7LQUyHNeMtvgWhdNMMx_473xsNA5zbcnWLmJH1dzVFxcTeoXII8Bs"/>
+<div class="absolute inset-0 bg-gradient-to-t from-obsidian-deep via-obsidian-deep/50 to-transparent pointer-events-none"></div>
+<div class="absolute bottom-0 left-0 w-full p-8 md:p-12 flex flex-col justify-end">
+<span class="font-label-md text-label-md uppercase tracking-widest text-champagne-highlight mb-3">Alpine</span>
+<h2 class="font-headline-lg text-headline-lg-mobile md:text-headline-lg text-burnished-gold mb-4 drop-shadow-md">Courchevel 1850</h2>
+<p class="font-body-md text-body-md text-sand-muted max-w-md hidden md:block">
+                        Ski-in, ski-out chalets featuring private helipads, Michelin-starred chefs, and bespoke winter wellness programs.
+                    </p>
+</div>
+<div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-burnished-gold to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+</article>
+</section>
+</main>
+<!-- Footer Component -->
+<footer class="bg-obsidian-deep w-full border-t border-outline-variant/30 flat">
+<div class="flex flex-col md:flex-row justify-between items-center px-margin-mobile md:px-margin-desktop py-20 w-full max-w-container-max mx-auto gap-8">
+<!-- Brand Logo -->
+<div class="font-headline-md text-burnished-gold text-headline-md">
+                AUREUM TRAVEL
+            </div>
+<!-- Links -->
+<nav class="flex flex-wrap justify-center gap-6 md:gap-12">
+<a class="font-caption text-caption uppercase tracking-tighter text-sand-muted hover:text-champagne-highlight transition-colors" href="#">Privacy Policy</a>
+<a class="font-caption text-caption uppercase tracking-tighter text-sand-muted hover:text-champagne-highlight transition-colors" href="#">Terms of Service</a>
+<a class="font-caption text-caption uppercase tracking-tighter text-sand-muted hover:text-champagne-highlight transition-colors" href="#">Press</a>
+<a class="font-caption text-caption uppercase tracking-tighter text-sand-muted hover:text-champagne-highlight transition-colors" href="#">Contact</a>
+</nav>
+<!-- Copyright -->
+<div class="font-caption text-caption uppercase tracking-tighter text-sand-muted text-center md:text-right">
+                © 2024 AUREUM PRIVATE TRAVEL. ALL RIGHTS RESERVED.
+            </div>
+</div>
+</footer>
+</body></html>

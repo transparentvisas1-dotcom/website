@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Aureum Travel - The Art of Travel Services</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600;700&amp;family=Hanken+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "surface-dim": "#131313",
+                        "burnished-gold": "#A67C00",
+                        "outline-variant": "#4d4635",
+                        "on-surface": "#e5e2e1",
+                        "primary-container": "#d4af37",
+                        "tertiary-container": "#caae8c",
+                        "surface-tint": "#e9c349",
+                        "obsidian-deep": "#0A0A0A",
+                        "primary-fixed-dim": "#e9c349",
+                        "sand-muted": "#C2B280",
+                        "on-primary-container": "#554300",
+                        "on-primary": "#3c2f00",
+                        "secondary-fixed-dim": "#d6c59d",
+                        "inverse-surface": "#e5e2e1",
+                        "inverse-on-surface": "#313030",
+                        "primary": "#f2ca50",
+                        "charcoal-surface": "#1F1F1F",
+                        "tertiary-fixed-dim": "#dfc29f",
+                        "inverse-primary": "#735c00",
+                        "on-background": "#e5e2e1",
+                        "surface-container": "#201f1f",
+                        "on-primary-fixed-variant": "#574500",
+                        "tertiary": "#e7c9a6",
+                        "champagne-highlight": "#F7E7CE",
+                        "error-container": "#93000a",
+                        "outline": "#99907c",
+                        "error": "#ffb4ab",
+                        "secondary": "#d6c59d",
+                        "on-error-container": "#ffdad6",
+                        "on-tertiary": "#3f2d15",
+                        "secondary-container": "#514627",
+                        "on-surface-variant": "#d0c5af",
+                        "surface": "#131313",
+                        "on-secondary-fixed-variant": "#514627",
+                        "on-secondary-container": "#c4b48d",
+                        "surface-container-high": "#2a2a2a",
+                        "background": "#131313",
+                        "secondary-fixed": "#f3e1b7",
+                        "primary-fixed": "#ffe088",
+                        "on-primary-fixed": "#241a00",
+                        "surface-bright": "#393939",
+                        "on-secondary-fixed": "#231b02",
+                        "on-error": "#690005",
+                        "on-tertiary-fixed": "#281903",
+                        "surface-variant": "#353534",
+                        "surface-container-lowest": "#0e0e0e",
+                        "tertiary-fixed": "#fcdeba",
+                        "on-tertiary-fixed-variant": "#574329",
+                        "surface-container-highest": "#353534",
+                        "on-secondary": "#392f13",
+                        "on-tertiary-container": "#554127",
+                        "surface-container-low": "#1c1b1b"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "margin-desktop": "80px",
+                        "container-max": "1440px",
+                        "gutter": "32px",
+                        "margin-mobile": "24px",
+                        "unit": "8px"
+                    },
+                    "fontFamily": {
+                        "headline-md": ["EB Garamond", "serif"],
+                        "headline-lg-mobile": ["EB Garamond", "serif"],
+                        "caption": ["Hanken Grotesk", "sans-serif"],
+                        "label-md": ["Hanken Grotesk", "sans-serif"],
+                        "headline-lg": ["EB Garamond", "serif"],
+                        "display-lg": ["EB Garamond", "serif"],
+                        "body-md": ["Hanken Grotesk", "sans-serif"],
+                        "body-lg": ["Hanken Grotesk", "sans-serif"]
+                    },
+                    "fontSize": {
+                        "headline-md": ["32px", { "lineHeight": "40px", "fontWeight": "400" }],
+                        "headline-lg-mobile": ["36px", { "lineHeight": "44px", "fontWeight": "400" }],
+                        "caption": ["12px", { "lineHeight": "16px", "fontWeight": "400" }],
+                        "label-md": ["14px", { "lineHeight": "20px", "letterSpacing": "0.1em", "fontWeight": "600" }],
+                        "headline-lg": ["48px", { "lineHeight": "56px", "fontWeight": "400" }],
+                        "display-lg": ["72px", { "lineHeight": "80px", "letterSpacing": "-0.02em", "fontWeight": "400" }],
+                        "body-md": ["16px", { "lineHeight": "24px", "fontWeight": "400" }],
+                        "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .gilded-edge-left {
+            position: relative;
+        }
+        .gilded-edge-left::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 1px;
+            height: 100%;
+            background: linear-gradient(to bottom, #A67C00, transparent);
+            z-index: 10;
+        }
+    </style>
+</head>
+<body class="bg-obsidian-deep text-on-surface antialiased selection:bg-burnished-gold/30 selection:text-champagne-highlight overflow-x-hidden">
+<nav class="fixed top-0 w-full z-50 bg-obsidian-deep/80 backdrop-blur-xl border-b border-champagne-highlight/15 transition-all duration-500 ease-in-out">
+<div class="flex justify-between items-center px-margin-desktop py-6 w-full max-w-container-max mx-auto">
+<div class="font-headline-md text-headline-md text-burnished-gold">AUREUM TRAVEL</div>
+<div class="hidden md:flex gap-gutter items-center">
+<a class="font-label-md text-label-md uppercase tracking-widest text-on-surface hover:text-burnished-gold transition-colors duration-300" href="#">Destinations</a>
+<a class="font-label-md text-label-md uppercase tracking-widest text-on-surface hover:text-burnished-gold transition-colors duration-300" href="#">Experiences</a>
+<a class="font-label-md text-label-md uppercase tracking-widest text-burnished-gold border-b border-burnished-gold pb-1" href="#">Services</a>
+<a class="font-label-md text-label-md uppercase tracking-widest text-on-surface hover:text-burnished-gold transition-colors duration-300" href="#">About</a>
+</div>
+<div class="flex items-center gap-6">
+<button class="hidden md:block font-label-md text-label-md uppercase tracking-widest px-6 py-3 border border-champagne-highlight/30 text-champagne-highlight hover:bg-white/5 hover:text-champagne-highlight transition-all duration-500 ease-in-out">Inquire</button>
+<span class="material-symbols-outlined text-on-surface hover:text-burnished-gold transition-colors cursor-pointer text-2xl" data-icon="person">person</span>
+</div>
+</div>
+</nav>
+<header class="relative min-h-screen flex items-center justify-center pt-32 pb-20 px-margin-mobile md:px-margin-desktop bg-obsidian-deep overflow-hidden">
+<div class="absolute inset-0 bg-cover bg-center opacity-40 mix-blend-luminosity scale-105" data-alt="A sweeping, cinematic landscape view of remote, majestic mountains piercing through low-hanging clouds. The color grading is incredibly moody and desaturated, leaning heavily into deep blacks and stark silvers, perfectly complementing a dark-mode luxury aesthetic. Subtle hints of dawn light trace the peaks, creating a sense of exclusive isolation and impending grand journeys." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCwGf1B7FZh9hCqwYBKsBfhywpYl8Lkj6mkLe7jFzOzGAuzkCekI6xGd8E_GD1uWpaCfL9_Le3MkEi9xnIAvpbiR_eK1u5Yn4YE2j-ZoyUIN5fkCp3d7ePtd2CCtjbzAQOeqHk8E_ljBjWG79uofiARDJSs8LLLRfTyL0mhxFJGJ38h2OL3WWbzsoTMgwkgx4UpG08lzNlLs3EgcY-_Xe5Ms00vnOe9nfE3v8RDyU6KvcAEAKFIdNLa6AACWtqbtqT8yPNL7DXcPyg');"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-obsidian-deep via-obsidian-deep/60 to-transparent"></div>
+<div class="relative z-10 text-center max-w-4xl mx-auto flex flex-col items-center mt-20">
+<div class="flex items-center gap-4 mb-8 opacity-80">
+<div class="h-[1px] w-12 bg-burnished-gold"></div>
+<span class="font-label-md text-label-md uppercase tracking-widest text-burnished-gold">The Art of Travel</span>
+<div class="h-[1px] w-12 bg-burnished-gold"></div>
+</div>
+<h1 class="font-display-lg text-display-lg text-champagne-highlight mb-10 drop-shadow-lg">Elevate Every <br/> Departure</h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl text-center leading-relaxed">We orchestrate the world's most extraordinary journeys, blending uncompromising privacy with meticulous curation. Welcome to the pinnacle of global mobility.</p>
+</div>
+</header>
+<main class="py-32 bg-obsidian-deep px-margin-mobile md:px-margin-desktop space-y-48">
+<section class="max-w-container-max mx-auto flex flex-col md:flex-row items-center gap-16 md:gap-24">
+<div class="w-full md:w-5/12 order-2 md:order-1 flex flex-col items-start space-y-8">
+<div class="bg-charcoal-surface/50 p-4 rounded-full border border-outline-variant/30 backdrop-blur-sm shadow-[0_0_15px_rgba(166,124,0,0.15)]">
+<span class="material-symbols-outlined text-3xl text-burnished-gold block" data-icon="flight_takeoff" style="font-variation-settings: 'FILL' 1;">flight_takeoff</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-champagne-highlight leading-tight">Private Aviation<br/><span class="text-on-surface-variant text-headline-md italic">Unrestricted Horizons</span></h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">Access a global network of meticulously maintained aircraft, ready at your command. From swift light jets for regional precision to palatial ultra-long-range cabins designed for transcontinental rest. We manage the logistics; you command the skies.</p>
+<a class="group inline-flex items-center gap-3 mt-4" href="#">
+<span class="font-label-md text-label-md uppercase tracking-widest text-burnished-gold border-b border-transparent group-hover:border-burnished-gold pb-1 transition-all">Explore Fleets</span>
+<span class="material-symbols-outlined text-burnished-gold transition-transform group-hover:translate-x-1" data-icon="arrow_right_alt">arrow_right_alt</span>
+</a>
+</div>
+<div class="w-full md:w-7/12 order-1 md:order-2 relative h-[500px] md:h-[700px] gilded-edge-left rounded-lg overflow-hidden group">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-1000 group-hover:scale-105" data-alt="The lavish interior of a Gulfstream private jet cabin. Soft, warm ambient lighting highlights pristine beige leather captain's chairs and highly polished dark wood veneer tables. A crystal decanter and two glasses sit elegantly prepared. The perspective is looking down the aisle toward the cockpit, emphasizing exclusivity, quiet luxury, and impeccable private travel standards." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAX7hLnFbzLw0HsRfC4WUBhrXQeg_EhInwkrXlQCZP2kToLTd0JmHMw4W2NNfpZvslR433r5gdwSUGP0sG6-pGFnp4WiF9S8BxZY8wd8Ba3dGAZZyJf9MafRcHi10He63S8GiCK4vb39C8Q6P4i9lMhrePIINGiHuUsmdz5cEWSK3Tk7icmM3BS1AyKjSJbydm9pm7f4Gin0NxVSVrk5fdvAUiqujSKZGiZWegAlQSwLZW5zZAcPzIRTLVWVkl0ppi5r1ECD9zFHFA');"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-obsidian-deep/80 to-transparent"></div>
+</div>
+</section>
+<section class="max-w-container-max mx-auto flex flex-col md:flex-row items-center gap-16 md:gap-24">
+<div class="w-full md:w-7/12 relative h-[500px] md:h-[700px] rounded-lg overflow-hidden group">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-1000 group-hover:scale-105" data-alt="An expansive, modern luxury villa overlooking a tranquil, dark ocean at twilight. The architectural lines are sharp and minimalist, illuminated from within by warm, inviting golden light that contrasts sharply against the deep blue-black night sky. An infinity pool reflects the sky, creating a seamless blend between the opulent residence and the natural environment." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuAXWgeIcQ5QG38HEOVJFLuKFsQmVT9GvqZKXE2TLwFVY0TxfSpgSGk7YD4fYOF4PmAvE-nIcFpQI_ANSd1HuDJKPkzw9nqoAmAKjK0fhHn7NvCG-_ldMcsoAv2YDP-hKUyPjXBg8AhYZhjcvZuwEWWEK1txplGsFgEYDD8KW2ncYQ0-VQDceu4UX_p4lzESSiFrlHH2Oz6U6aL1-OLnSFFp-i72qoCjZDJUCQn0apvnSBRcKgABBDGYuRLOqWguGLH4yr3k4n3TLkE');"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-obsidian-deep/80 to-transparent"></div>
+<div class="absolute top-0 right-0 w-1 h-full bg-gradient-to-b from-burnished-gold to-transparent z-10"></div>
+</div>
+<div class="w-full md:w-5/12 flex flex-col items-start space-y-8">
+<div class="bg-charcoal-surface/50 p-4 rounded-full border border-outline-variant/30 backdrop-blur-sm shadow-[0_0_15px_rgba(166,124,0,0.15)]">
+<span class="material-symbols-outlined text-3xl text-burnished-gold block" data-icon="villa" style="font-variation-settings: 'FILL' 1;">villa</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-champagne-highlight leading-tight">Sanctuaries<br/><span class="text-on-surface-variant text-headline-md italic">Exclusive Estates</span></h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">Reside in the world's most coveted and entirely off-market properties. From historic châteaux in the Loire Valley to contemporary glass fortresses perched above the Aegean, our portfolio of private residences guarantees absolute discretion and fully staffed, bespoke hospitality.</p>
+<a class="group inline-flex items-center gap-3 mt-4" href="#">
+<span class="font-label-md text-label-md uppercase tracking-widest text-burnished-gold border-b border-transparent group-hover:border-burnished-gold pb-1 transition-all">View Collection</span>
+<span class="material-symbols-outlined text-burnished-gold transition-transform group-hover:translate-x-1" data-icon="arrow_right_alt">arrow_right_alt</span>
+</a>
+</div>
+</section>
+<section class="max-w-container-max mx-auto flex flex-col md:flex-row items-center gap-16 md:gap-24">
+<div class="w-full md:w-5/12 order-2 md:order-1 flex flex-col items-start space-y-8">
+<div class="bg-charcoal-surface/50 p-4 rounded-full border border-outline-variant/30 backdrop-blur-sm shadow-[0_0_15px_rgba(166,124,0,0.15)]">
+<span class="material-symbols-outlined text-3xl text-burnished-gold block" data-icon="edit_calendar" style="font-variation-settings: 'FILL' 1;">edit_calendar</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-champagne-highlight leading-tight">Master Planning<br/><span class="text-on-surface-variant text-headline-md italic">Tailored Narratives</span></h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">No two journeys are alike. Our dedicated artisans of travel craft hyper-personalized itineraries. We handle complex border logistics, secure impossibly rare dinner reservations, and orchestrate private viewings of cultural landmarks long after the public has departed.</p>
+<a class="group inline-flex items-center gap-3 mt-4" href="#">
+<span class="font-label-md text-label-md uppercase tracking-widest text-burnished-gold border-b border-transparent group-hover:border-burnished-gold pb-1 transition-all">Begin Consultation</span>
+<span class="material-symbols-outlined text-burnished-gold transition-transform group-hover:translate-x-1" data-icon="arrow_right_alt">arrow_right_alt</span>
+</a>
+</div>
+<div class="w-full md:w-7/12 order-1 md:order-2 relative h-[500px] md:h-[700px] gilded-edge-left rounded-lg overflow-hidden group">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-1000 group-hover:scale-105" data-alt="A close-up, highly detailed shot of an antique fountain pen resting on a heavy, textured parchment notebook. A finely crafted brass compass sits adjacently. The lighting is cinematic and dark, with a single beam of warm spotlight highlighting the gold nib of the pen and the intricate markings on the compass. The mood implies thoughtful planning, bespoke design, and timeless exploration." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCGzYhOvXNc9NISfR16In0SGsVZBLC9-hvunpZuKzq3wgOlsjCtMk1EE5TsIyXw0UK42sIGUycAAMa4rwwvav-AARGtOplB2tZ1V_CDhXztD5S_C7ntfAs9x-Jr9Opw6ujVUPPsDk_ZER3avwQDWf8DEHqUP5v6-fTGAkgsFRRREaC4P0Y76HnfuMYQjCluFeS5v3jYmkBqzQZVFdpHyf9SVOUtl_q9OCt_9aqk-AU7Cu3nBYG7EF_R-Mpa2peSkAES2Uk4L50bXH0');"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-obsidian-deep/80 to-transparent"></div>
+</div>
+</section>
+</main>
+<footer class="w-full bg-obsidian-deep border-t border-outline-variant/30 flex flex-col md:flex-row justify-between items-center px-margin-desktop py-20">
+<div class="font-headline-md text-headline-md text-burnished-gold mb-12 md:mb-0">AUREUM TRAVEL</div>
+<div class="flex flex-wrap justify-center gap-8 mb-12 md:mb-0">
+<a class="font-caption text-caption uppercase tracking-tighter text-sand-muted hover:text-champagne-highlight transition-colors" href="#">Privacy Policy</a>
+<a class="font-caption text-caption uppercase tracking-tighter text-sand-muted hover:text-champagne-highlight transition-colors" href="#">Terms of Service</a>
+<a class="font-caption text-caption uppercase tracking-tighter text-sand-muted hover:text-champagne-highlight transition-colors" href="#">Press</a>
+<a class="font-caption text-caption uppercase tracking-tighter text-sand-muted hover:text-champagne-highlight transition-colors" href="#">Contact</a>
+</div>
+<div class="font-caption text-caption uppercase tracking-tighter text-sand-muted">
+            © 2024 AUREUM PRIVATE TRAVEL. ALL RIGHTS RESERVED.
+        </div>
+</footer>
+</body></html>
