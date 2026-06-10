@@ -167,7 +167,7 @@ export default function Home() {
         <div className="w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop relative z-10">
           <div className="max-w-3xl mb-16">
             <h2 className="kaisei-decol-regular text-fluid-h1 leading-[1.1] mb-6 text-on-surface">
-              Why Thousands Trust Us With Their Global Dreams.
+              Why Hundreds Trust Us With Their Global Dreams.
             </h2>
             <p className="font-body-md text-[18px] text-on-surface-variant max-w-2xl leading-relaxed">
               Experience a stress-free visa application with our 100% transparent pricing, expert personalized guidance, and meticulous documentation support.

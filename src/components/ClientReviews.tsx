@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState, useCallback } from "react";
 import Image from "next/image";
 import { FaStar, FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
@@ -26,21 +26,64 @@ const REVIEWS = [
 
 export default function ClientReviews() {
   const scrollRef = useRef<HTMLDivElement>(null);
+  const sectionRef = useRef<HTMLElement>(null);
+  const [isVisible, setIsVisible] = useState(false);
+  const timerRef = useRef<NodeJS.Timeout | null>(null);
+  const hasVisited = useRef(false);
+
+  const autoScroll = useCallback(() => {
+    if (scrollRef.current) {
+      const { scrollLeft, scrollWidth, clientWidth } = scrollRef.current;
+      if (scrollLeft + clientWidth >= scrollWidth - 10) {
+        scrollRef.current.scrollTo({ left: 0, behavior: 'smooth' });
+      } else {
+        const scrollAmount = window.innerWidth >= 768 ? clientWidth / 2 : clientWidth;
+        scrollRef.current.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+      }
+    }
+  }, []);
+
+  const startAutoScroll = useCallback(() => {
+    if (timerRef.current) clearInterval(timerRef.current);
+    timerRef.current = setInterval(autoScroll, 5000);
+  }, [autoScroll]);
+
+  const stopAutoScroll = useCallback(() => {
+    if (timerRef.current) clearInterval(timerRef.current);
+  }, []);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      if (scrollRef.current) {
-        const { scrollLeft, scrollWidth, clientWidth } = scrollRef.current;
-        if (scrollLeft + clientWidth >= scrollWidth - 10) {
-          scrollRef.current.scrollTo({ left: 0, behavior: 'smooth' });
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          if (!hasVisited.current && scrollRef.current) {
+            scrollRef.current.scrollTo({ left: 0 });
+            hasVisited.current = true;
+          }
+          setIsVisible(true);
         } else {
-          const scrollAmount = window.innerWidth >= 768 ? clientWidth / 2 : clientWidth;
-          scrollRef.current.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+          setIsVisible(false);
         }
-      }
-    }, 5000);
-    return () => clearInterval(interval);
+      },
+      { threshold: 0.1 }
+    );
+
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    return () => observer.disconnect();
   }, []);
+
+  useEffect(() => {
+    if (isVisible) {
+      startAutoScroll();
+    } else {
+      stopAutoScroll();
+    }
+
+    return stopAutoScroll;
+  }, [isVisible, startAutoScroll, stopAutoScroll]);
 
   const scroll = (direction: 'left' | 'right') => {
     if (scrollRef.current) {
@@ -50,11 +93,16 @@ export default function ClientReviews() {
         left: direction === 'left' ? -scrollAmount : scrollAmount, 
         behavior: 'smooth' 
       });
+
+      if (isVisible) {
+        stopAutoScroll();
+        startAutoScroll();
+      }
     }
   };
 
   return (
-    <section className="py-[120px] md:py-[160px] bg-obsidian-deep overflow-hidden relative border-y border-outline-variant/20">
+    <section ref={sectionRef} className="py-[120px] md:py-[160px] bg-obsidian-deep overflow-hidden relative border-y border-outline-variant/20">
       <div className="w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
         
         {/* Header Section */}
@@ -64,7 +112,7 @@ export default function ClientReviews() {
               Build Trust By Serving.
             </h2>
             <p className="font-body-md text-[18px] text-on-surface-variant max-w-2xl leading-relaxed">
-              Join thousands of successful applicants who achieved their global travel dreams. We build lasting trust through proven results and absolute transparency.
+              Join hundreds of successful applicants who achieved their global travel dreams. We build lasting trust through proven results and absolute transparency.
             </p>
           </div>
           

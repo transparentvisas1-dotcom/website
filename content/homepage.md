@@ -88,7 +88,7 @@ Whether you are travelling for business, education, family, or faith — Transpa
 WHY TRANSPARENT VISAS
 
 ### H2
-Why Thousands Trust Us With Their Global Dreams
+Why Hundreds Trust Us With Their Global Dreams
 
 ### Value Props
 
