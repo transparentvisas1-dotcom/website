@@ -3,8 +3,8 @@ import Image from "next/image";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Us | Transparent Visas — 4+ Years of Trusted Visa Expertise",
-  description: "Learn about Transparent Visas — 4+ years of immigration consulting, 93% success rate, 300+ cases handled. Your experienced visa expert making global dreams a reality.",
+  title: "About Us | Transparent Visas - 4+ Years of Trusted Visa Expertise",
+  description: "Learn about Transparent Visas - 4+ years of immigration consulting, 93% success rate, 300+ cases handled. Your experienced visa expert making global dreams a reality.",
 };
 
 export default function AboutPage() {
@@ -38,10 +38,10 @@ export default function AboutPage() {
             Making Your Global Dreams a Reality
           </h2>
           <div className="font-body-md text-lg text-on-surface-variant leading-relaxed space-y-6">
-            <p>Transparent Visas was founded on a simple belief: navigating the visa process should never be opaque, intimidating, or unfair. Too many applicants face rejection not because they are ineligible — but because they lacked the right guidance, the right documentation, or the right strategy.</p>
+            <p>Transparent Visas was founded on a simple belief: navigating the visa process should never be opaque, intimidating, or unfair. Too many applicants face rejection not because they are ineligible - but because they lacked the right guidance, the right documentation, or the right strategy.</p>
             <p className="text-white font-semibold">We exist to change that.</p>
-            <p>For over 4+ years, we have helped individuals, families, students, business professionals, and religious leaders obtain visas to countries across the globe — including the UK, USA, Canada, Australia, Schengen zone, and GCC countries. Every client receives the same level of dedication, transparency, and personalised attention.</p>
-            <p>Our name is our promise. <strong className="text-burnished-gold">Transparent</strong> — in our process, our communication, our pricing, and our results.</p>
+            <p>For over 4+ years, we have helped individuals, families, students, business professionals, and religious leaders obtain visas to countries across the globe - including the UK, USA, Canada, Australia, Schengen zone, and GCC countries. Every client receives the same level of dedication, transparency, and personalised attention.</p>
+            <p>Our name is our promise. <strong className="text-burnished-gold">Transparent</strong> - in our process, our communication, our pricing, and our results.</p>
           </div>
         </div>
 
@@ -81,7 +81,7 @@ export default function AboutPage() {
             </div>
             <div className="bg-obsidian-deep/50 border border-white/5 rounded-xl p-8">
               <h4 className="kaisei-decol-regular text-xl text-burnished-gold mb-4">Personal Attention</h4>
-              <p className="font-body-md text-sm text-on-surface-variant leading-relaxed">Every case is unique — your nationality, travel history, financial profile, and purpose of travel all shape how we approach your file. We customise our strategy to fit your specific circumstances.</p>
+              <p className="font-body-md text-sm text-on-surface-variant leading-relaxed">Every case is unique - your nationality, travel history, financial profile, and purpose of travel all shape how we approach your file. We customise our strategy to fit your specific circumstances.</p>
             </div>
             <div className="bg-obsidian-deep/50 border border-white/5 rounded-xl p-8">
               <h4 className="kaisei-decol-regular text-xl text-burnished-gold mb-4">Documentation Excellence</h4>
@@ -89,7 +89,7 @@ export default function AboutPage() {
             </div>
             <div className="bg-obsidian-deep/50 border border-white/5 rounded-xl p-8">
               <h4 className="kaisei-decol-regular text-xl text-burnished-gold mb-4">Relentless Communication</h4>
-              <p className="font-body-md text-sm text-on-surface-variant leading-relaxed">We are always available — responsive to messages, clear in our explanations, and proactive in providing updates. You will never feel left in the dark waiting for a visa decision.</p>
+              <p className="font-body-md text-sm text-on-surface-variant leading-relaxed">We are always available - responsive to messages, clear in our explanations, and proactive in providing updates. You will never feel left in the dark waiting for a visa decision.</p>
             </div>
             <div className="bg-obsidian-deep/50 border border-white/5 rounded-xl p-8 lg:col-span-2">
               <h4 className="kaisei-decol-regular text-xl text-burnished-gold mb-4">Integrity in Every Case</h4>

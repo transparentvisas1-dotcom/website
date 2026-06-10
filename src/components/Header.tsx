@@ -122,8 +122,8 @@ export default function Header() {
       </nav>
 
       {/* Mobile Nav Header */}
-      <nav id="mobile-nav" className="fixed top-0 w-full z-50 bg-transparent border-b border-transparent transition-all duration-500 ease-in-out flex md:hidden justify-between items-center px-margin-mobile py-4" aria-label="Mobile navigation">
-        <Link href="/" className="flex items-center gap-3 group">
+      <nav id="mobile-nav" className="fixed top-0 w-full z-50 bg-transparent border-b border-transparent transition-all duration-500 ease-in-out flex md:hidden items-center px-margin-mobile py-4 relative" aria-label="Mobile navigation">
+        <Link href="/" className="flex items-center gap-3 group absolute left-1/2 -translate-x-1/2">
           <div className="relative w-[44px] h-[44px]">
             <div className="absolute inset-0 bg-burnished-gold/20 blur-lg rounded-full scale-150"></div>
             <Image 
@@ -146,7 +146,7 @@ export default function Header() {
           </div>
         </Link>
         <button 
-          className="text-burnished-gold p-2"
+          className="text-burnished-gold p-2 ml-auto"
           onClick={() => setIsOpen(true)}
           aria-expanded={isOpen}
           aria-controls="mobile-menu"

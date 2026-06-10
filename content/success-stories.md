@@ -1,7 +1,7 @@
-# Success Stories — Transparent Visas
+# Success Stories - Transparent Visas
 
 ## META
-- **Title Tag:** Success Stories | Visa Approvals & Client Testimonials — Transparent Visas
+- **Title Tag:** Success Stories | Visa Approvals & Client Testimonials - Transparent Visas
 - **Meta Description:** Read real success stories from Transparent Visas clients. UK visa refusal overturned, Canada student visa approved, Schengen business visa fast-tracked & more.
 - **H1:** Success Stories
 - **Canonical URL:** https://transparentvisas.com/success-stories
@@ -28,17 +28,17 @@ Every visa approval is a story of trust, preparation, and perseverance. Here are
 UK · VISIT VISA · REFUSAL RECOVERY
 
 ### H3
-"Refused Twice — Approved on the Third Attempt"
+"Refused Twice - Approved on the Third Attempt"
 
 ### Client
-**Pastor James K.** — Religious Visit to United Kingdom
+**Pastor James K.** - Religious Visit to United Kingdom
 
 ### Story
-Pastor James had been invited to speak at a church conference in London. His UK visit visa was refused twice — first for insufficient financial evidence, and then for unclear purpose of visit. By the time he found Transparent Visas, he was discouraged and nearly gave up.
+Pastor James had been invited to speak at a church conference in London. His UK visit visa was refused twice - first for insufficient financial evidence, and then for unclear purpose of visit. By the time he found Transparent Visas, he was discouraged and nearly gave up.
 
 Our team carefully analysed both refusal letters, identified the specific concerns raised by the visa officer, and rebuilt his entire application from scratch. We strengthened his financial documentation with additional bank statements and a sponsorship letter from the inviting church, rewrote his cover letter to clearly articulate the purpose and duration of his visit, and provided a detailed itinerary with conference registration proof.
 
-His visa was approved on the third attempt. Pastor James attended the conference and returned home safely — exactly as he had planned all along.
+His visa was approved on the third attempt. Pastor James attended the conference and returned home safely - exactly as he had planned all along.
 
 ### Key Outcome
 ✅ Two prior refusals overturned
@@ -56,12 +56,12 @@ CANADA · STUDENT VISA
 "From Application Anxiety to Campus in Toronto"
 
 ### Client
-**Priya S.** — Student Visa to Canada
+**Priya S.** - Student Visa to Canada
 
 ### Story
 Priya had received her admission letter from a DLI in Toronto but was overwhelmed by the study permit documentation process. She was particularly concerned about demonstrating financial capacity and preparing the GIC (Guaranteed Investment Certificate) and tuition payment evidence.
 
-We guided her through every step — from organising her financial documents (bank statements, education loan approval, and sponsor declarations) to preparing a compelling Statement of Purpose that clearly demonstrated her genuine intent to study and return. We also helped her prepare for the biometric appointment and answered every question she had along the way.
+We guided her through every step - from organising her financial documents (bank statements, education loan approval, and sponsor declarations) to preparing a compelling Statement of Purpose that clearly demonstrated her genuine intent to study and return. We also helped her prepare for the biometric appointment and answered every question she had along the way.
 
 Priya received her study permit within 6 weeks of submission. She is now pursuing her studies in Toronto and recently messaged us to say it was "the best decision I ever made."
 
@@ -78,17 +78,17 @@ Priya received her study permit within 6 weeks of submission. She is now pursuin
 SCHENGEN · BUSINESS VISA · FAST TRACK
 
 ### H3
-"Everything Sorted in One Place — Visa, Flights, Insurance"
+"Everything Sorted in One Place - Visa, Flights, Insurance"
 
 ### Client
-**Rajesh M.** — Business Visa to Germany (Schengen)
+**Rajesh M.** - Business Visa to Germany (Schengen)
 
 ### Story
-Rajesh is a small business owner who was invited to attend a trade fair in Frankfurt with very limited notice — just 3 weeks before the event. He needed a Schengen business visa, flights, and travel insurance, all arranged quickly and correctly.
+Rajesh is a small business owner who was invited to attend a trade fair in Frankfurt with very limited notice - just 3 weeks before the event. He needed a Schengen business visa, flights, and travel insurance, all arranged quickly and correctly.
 
 Our team moved fast. We prepared his complete visa application within 48 hours, including the invitation letter from the trade fair organisers, his company registration documents, financial statements, and a travel itinerary. We booked his flights to align with the trade fair schedule and arranged Schengen-compliant travel insurance.
 
-Rajesh received his visa within 10 working days and made it to the trade fair with days to spare. He later told us, "I didn't have to worry about a single thing — you handled everything."
+Rajesh received his visa within 10 working days and made it to the trade fair with days to spare. He later told us, "I didn't have to worry about a single thing - you handled everything."
 
 ### Key Outcome
 ✅ Complete application prepared in 48 hours
@@ -106,7 +106,7 @@ USA · VISITOR VISA · INTERVIEW PREP
 "Confident and Prepared for the Consulate Interview"
 
 ### Client
-**Anita & Suresh D.** — B1/B2 Visitor Visa to United States
+**Anita & Suresh D.** - B1/B2 Visitor Visa to United States
 
 ### Story
 Anita and Suresh were planning their first trip to the United States to visit their daughter in California. They had heard that the US consulate interview was difficult and intimidating, and they were anxious about the process.
@@ -128,17 +128,17 @@ Both received their B1/B2 visas at the first attempt. They spent a wonderful mon
 AUSTRALIA · VISITOR VISA
 
 ### H3
-"Visiting My Son in Melbourne — A Dream Come True"
+"Visiting My Son in Melbourne - A Dream Come True"
 
 ### Client
-**Mrs. Lakshmi R.** — Visitor Visa (Subclass 600) to Australia
+**Mrs. Lakshmi R.** - Visitor Visa (Subclass 600) to Australia
 
 ### Story
 Mrs. Lakshmi, a retired schoolteacher, wanted to visit her son and grandchildren in Melbourne. She had never applied for an international visa before and was unsure where to begin. Her son, based in Australia, contacted us to help his mother with the process.
 
-We handled everything remotely — guiding Mrs. Lakshmi through document collection via WhatsApp, preparing her application online through ImmiAccount, and ensuring her financial documents and sponsorship declaration from her son met Australian standards. We also arranged her travel insurance and helped with flight bookings.
+We handled everything remotely - guiding Mrs. Lakshmi through document collection via WhatsApp, preparing her application online through ImmiAccount, and ensuring her financial documents and sponsorship declaration from her son met Australian standards. We also arranged her travel insurance and helped with flight bookings.
 
-Her visitor visa was approved within 3 weeks. Mrs. Lakshmi spent three months with her family in Melbourne — her first overseas trip at the age of 67.
+Her visitor visa was approved within 3 weeks. Mrs. Lakshmi spent three months with her family in Melbourne - her first overseas trip at the age of 67.
 
 ### Key Outcome
 ✅ First-time international traveller

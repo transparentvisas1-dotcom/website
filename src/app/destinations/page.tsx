@@ -5,7 +5,7 @@ import { Landmark, Building2, MapPin, Compass, Globe2, Building } from "lucide-r
 import FAQAccordion from "@/components/FAQAccordion";
 
 export const metadata: Metadata = {
-  title: "Countries We Serve | UK, USA, Canada, Australia, GCC Visa Services — Transparent Visas",
+  title: "Countries We Serve | UK, USA, Canada, Australia, GCC Visa Services - Transparent Visas",
   description: "Visa services for 30+ countries including UK, USA, Canada, Australia, Schengen Europe, GCC (UAE, Saudi, Qatar) & more. Tourist, student, work & business visas.",
 };
 
@@ -26,7 +26,7 @@ export default function CountriesPage() {
             Countries & Visa Types We Serve
           </h1>
           <p className="font-body-lg text-white/90 max-w-3xl mx-auto">
-            From the United Kingdom to Australia, from the Schengen zone to the GCC — we process visas for every major destination. Explore the countries and visa types below, or contact us for a personalised assessment.
+            From the United Kingdom to Australia, from the Schengen zone to the GCC - we process visas for every major destination. Explore the countries and visa types below, or contact us for a personalised assessment.
           </p>
         </div>
       </section>
@@ -55,11 +55,11 @@ export default function CountriesPage() {
           <div className="pt-4 md:pt-12">
             <h3 className="font-label-md text-burnished-gold uppercase tracking-widest mb-6">Visa Types Available</h3>
             <ul className="space-y-4 font-body-md text-on-surface-variant mb-12">
-              <li className="flex items-start gap-3"><span className="text-burnished-gold">•</span> <div><strong className="text-on-surface">Standard Visitor Visa</strong> — Tourism, family visits, religious conferences</div></li>
-              <li className="flex items-start gap-3"><span className="text-burnished-gold">•</span> <div><strong className="text-on-surface">Student Visa</strong> — Full-time study at a licensed UK institution</div></li>
-              <li className="flex items-start gap-3"><span className="text-burnished-gold">•</span> <div><strong className="text-on-surface">Skilled Worker Visa</strong> — Employment with an approved UK sponsor</div></li>
-              <li className="flex items-start gap-3"><span className="text-burnished-gold">•</span> <div><strong className="text-on-surface">Business Visitor Visa</strong> — Conferences, meetings, trade fairs</div></li>
-              <li className="flex items-start gap-3"><span className="text-burnished-gold">•</span> <div><strong className="text-on-surface">Dependent Visa</strong> — Joining a family member in the UK</div></li>
+              <li className="flex items-start gap-3"><span className="text-burnished-gold">•</span> <div><strong className="text-on-surface">Standard Visitor Visa</strong> - Tourism, family visits, religious conferences</div></li>
+              <li className="flex items-start gap-3"><span className="text-burnished-gold">•</span> <div><strong className="text-on-surface">Student Visa</strong> - Full-time study at a licensed UK institution</div></li>
+              <li className="flex items-start gap-3"><span className="text-burnished-gold">•</span> <div><strong className="text-on-surface">Skilled Worker Visa</strong> - Employment with an approved UK sponsor</div></li>
+              <li className="flex items-start gap-3"><span className="text-burnished-gold">•</span> <div><strong className="text-on-surface">Business Visitor Visa</strong> - Conferences, meetings, trade fairs</div></li>
+              <li className="flex items-start gap-3"><span className="text-burnished-gold">•</span> <div><strong className="text-on-surface">Dependent Visa</strong> - Joining a family member in the UK</div></li>
             </ul>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
               <div>
@@ -202,7 +202,7 @@ export default function CountriesPage() {
               <Building size={64} className="text-burnished-gold mb-6" strokeWidth={1} />
               <h2 className="font-headline-lg-mobile text-on-surface mb-6">GCC Countries</h2>
               <p className="font-body-md text-on-surface-variant mb-8">
-                The Gulf Cooperation Council (GCC) countries are major destinations for Indian travellers — for business, employment, tourism, and religious travel (Umrah/Hajj). We process visas for all six GCC nations with fast turnaround times and thorough documentation.
+                The Gulf Cooperation Council (GCC) countries are major destinations for Indian travellers - for business, employment, tourism, and religious travel (Umrah/Hajj). We process visas for all six GCC nations with fast turnaround times and thorough documentation.
               </p>
               <Link href="https://wa.me/918891744344" target="_blank" rel="noopener noreferrer" className="text-champagne-highlight font-label-md uppercase tracking-widest border-b border-champagne-highlight/30 pb-1 hover:border-champagne-highlight transition-all inline-flex items-center gap-2">
                 Apply for GCC Visa <span className="material-symbols-outlined text-[18px]">arrow_forward</span>

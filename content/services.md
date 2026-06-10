@@ -1,7 +1,7 @@
-# Services Page — Transparent Visas
+# Services Page - Transparent Visas
 
 ## META
-- **Title Tag:** Visa Services | Tourist, Student, Work & Business Visas — Transparent Visas
+- **Title Tag:** Visa Services | Tourist, Student, Work & Business Visas - Transparent Visas
 - **Meta Description:** Expert visa services for UK, USA, Canada, Australia, Schengen, GCC & more. Tourist visas, student visas, work permits, document attestation & refusal cases. 97% success rate.
 - **H1:** Our Visa & Travel Services
 - **Canonical URL:** https://transparentvisas.com/services
@@ -18,7 +18,7 @@ COMPREHENSIVE SOLUTIONS
 Our Visa & Travel Services
 
 ### Subtitle
-End-to-end visa assistance, document services, and travel support — all under one roof. Every service is delivered with the transparency, precision, and personal attention that defines our name.
+End-to-end visa assistance, document services, and travel support - all under one roof. Every service is delivered with the transparency, precision, and personal attention that defines our name.
 
 ---
 
@@ -28,19 +28,19 @@ End-to-end visa assistance, document services, and travel support — all under 
 Tourist & Visit Visas
 
 ### Body
-Whether you are planning a family holiday, visiting relatives abroad, attending a religious conference, or simply exploring a new country — our tourist and visit visa service covers every destination and every purpose of travel.
+Whether you are planning a family holiday, visiting relatives abroad, attending a religious conference, or simply exploring a new country - our tourist and visit visa service covers every destination and every purpose of travel.
 
 We have extensive experience handling visit visas for pastors, church leaders, and individuals travelling for religious purposes. Our understanding of the specific documentation requirements for faith-based travel sets us apart.
 
 ### Countries Covered
-- **United Kingdom** — Standard Visitor Visa (up to 6 months)
-- **United States** — B1/B2 Visitor Visa
-- **Canada** — Temporary Resident Visa (Visitor)
-- **Australia** — Visitor Visa (Subclass 600)
-- **Schengen Countries** — Short-Stay Visa (up to 90 days)
-- **GCC Countries** — UAE, Saudi Arabia, Qatar, Bahrain, Kuwait, Oman
-- **New Zealand** — Visitor Visa
-- **Other Countries** — Singapore, Thailand, Malaysia, Japan, South Korea, and more
+- **United Kingdom** - Standard Visitor Visa (up to 6 months)
+- **United States** - B1/B2 Visitor Visa
+- **Canada** - Temporary Resident Visa (Visitor)
+- **Australia** - Visitor Visa (Subclass 600)
+- **Schengen Countries** - Short-Stay Visa (up to 90 days)
+- **GCC Countries** - UAE, Saudi Arabia, Qatar, Bahrain, Kuwait, Oman
+- **New Zealand** - Visitor Visa
+- **Other Countries** - Singapore, Thailand, Malaysia, Japan, South Korea, and more
 
 ### What's Included
 - Eligibility assessment based on your profile
@@ -63,16 +63,16 @@ Apply for a Tourist Visa →
 Student Visa Consulting
 
 ### Body
-Your education abroad starts with the right visa strategy. We work with students at every stage — from university admission documentation to visa filing, financial proof preparation, and interview coaching.
+Your education abroad starts with the right visa strategy. We work with students at every stage - from university admission documentation to visa filing, financial proof preparation, and interview coaching.
 
 Our student visa service goes beyond filling forms. We help you present a compelling case that demonstrates genuine intent, financial capability, and academic readiness.
 
 ### Countries Covered
-- **United Kingdom** — Student Visa (Tier 4 / Student Route)
-- **Canada** — Study Permit
-- **Australia** — Student Visa (Subclass 500)
-- **United States** — F1 Student Visa
-- **New Zealand** — Fee-Paying Student Visa
+- **United Kingdom** - Student Visa (Tier 4 / Student Route)
+- **Canada** - Study Permit
+- **Australia** - Student Visa (Subclass 500)
+- **United States** - F1 Student Visa
+- **New Zealand** - Fee-Paying Student Visa
 
 ### What's Included
 - University admission document support
@@ -94,17 +94,17 @@ Get Student Visa Help →
 Work & Business Visas
 
 ### Body
-Navigating work and business visas requires precision — each country has unique requirements for employer sponsorship, skill assessments, and financial thresholds. We handle the complexity so you can focus on your career or business.
+Navigating work and business visas requires precision - each country has unique requirements for employer sponsorship, skill assessments, and financial thresholds. We handle the complexity so you can focus on your career or business.
 
 Whether you need a skilled worker visa, a business visitor permit, or an intra-company transfer visa, our team ensures your application is complete, accurate, and submitted on time.
 
 ### Countries Covered
-- **United Kingdom** — Skilled Worker Visa, Business Visitor Visa, Innovator Visa
-- **Canada** — Work Permit, LMIA-based Visa, Business Visitor
-- **Australia** — Temporary Skill Shortage (Subclass 482), Business Visa
-- **United States** — H1B, L1, B1 Business Visa
-- **Schengen Countries** — Business Visa, Conference/Trade Fair Visa
-- **GCC Countries** — UAE, Saudi Arabia, Qatar, Bahrain, Kuwait, Oman — Employment Visa, Business Visa
+- **United Kingdom** - Skilled Worker Visa, Business Visitor Visa, Innovator Visa
+- **Canada** - Work Permit, LMIA-based Visa, Business Visitor
+- **Australia** - Temporary Skill Shortage (Subclass 482), Business Visa
+- **United States** - H1B, L1, B1 Business Visa
+- **Schengen Countries** - Business Visa, Conference/Trade Fair Visa
+- **GCC Countries** - UAE, Saudi Arabia, Qatar, Bahrain, Kuwait, Oman - Employment Visa, Business Visa
 
 ### What's Included
 - Employer sponsorship document coordination
@@ -130,10 +130,10 @@ Being separated from your family shouldn't last longer than necessary. We assist
 Our team understands the emotional weight of these applications. We treat every case with sensitivity, urgency, and the thorough documentation it deserves.
 
 ### Countries Covered
-- **United Kingdom** — Dependent Visa, Family Reunion Visa
-- **Canada** — Spouse/Common-Law Partner Sponsorship
-- **Australia** — Partner Visa, Child Visa, Parent Visa
-- **Other Countries** — Dependent and family joining visas
+- **United Kingdom** - Dependent Visa, Family Reunion Visa
+- **Canada** - Spouse/Common-Law Partner Sponsorship
+- **Australia** - Partner Visa, Child Visa, Parent Visa
+- **Other Countries** - Dependent and family joining visas
 
 ### What's Included
 - Relationship evidence documentation guidance
@@ -153,19 +153,19 @@ Start Your Family Visa Application →
 Visa Refusal? No Problem.
 
 ### Tagline
-We Undertake All Refusal Cases — Especially UK Visit Visa Refusal Cases.
+We Undertake All Refusal Cases - Especially UK Visit Visa Refusal Cases.
 
 ### Body
-A visa refusal is not the end of the road. In many cases, it's a documentation problem — not an eligibility problem. We specialise in analysing visa refusals, identifying exactly where the previous application went wrong, and building a significantly stronger case for resubmission.
+A visa refusal is not the end of the road. In many cases, it's a documentation problem - not an eligibility problem. We specialise in analysing visa refusals, identifying exactly where the previous application went wrong, and building a significantly stronger case for resubmission.
 
 Our refusal handling expertise is particularly strong for UK visit visa rejections, where we have successfully overturned multiple prior refusals through meticulous documentation correction and strategic re-application.
 
 ### Our Refusal Recovery Process
-1. **Refusal Analysis** — We obtain and carefully review your refusal letter to understand the exact grounds of rejection.
-2. **Gap Identification** — We identify documentation gaps, inconsistencies, or weak points that led to the refusal.
-3. **Strategy Development** — We develop a tailored re-application strategy that directly addresses every concern raised by the visa officer.
-4. **Documentation Correction** — We rebuild your document package with strengthened evidence, corrected statements, and additional supporting materials.
-5. **Resubmission** — We prepare and submit your new application with confidence, backed by a compelling case.
+1. **Refusal Analysis** - We obtain and carefully review your refusal letter to understand the exact grounds of rejection.
+2. **Gap Identification** - We identify documentation gaps, inconsistencies, or weak points that led to the refusal.
+3. **Strategy Development** - We develop a tailored re-application strategy that directly addresses every concern raised by the visa officer.
+4. **Documentation Correction** - We rebuild your document package with strengthened evidence, corrected statements, and additional supporting materials.
+5. **Resubmission** - We prepare and submit your new application with confidence, backed by a compelling case.
 
 ### What Makes Us Different
 - Expert re-application guidance from consultants who have handled dozens of refusal cases
@@ -184,7 +184,7 @@ Get Refusal Help Today →
 Attestation, Translation & Documentation
 
 ### Tagline
-From attestation to translation — all your paperwork, sorted.
+From attestation to translation - all your paperwork, sorted.
 
 ### Body
 Many visa applications require attested, verified, or translated documents. We handle the entire documentation lifecycle so you don't have to run between government offices and translation agencies.
@@ -216,7 +216,7 @@ A complete travel experience goes beyond the visa stamp. We provide essential tr
 ### Services
 
 #### Flight Bookings
-Competitive flight bookings that align with your visa application requirements. We help you find itineraries that demonstrate clear travel plans — a critical element for many visa applications.
+Competitive flight bookings that align with your visa application requirements. We help you find itineraries that demonstrate clear travel plans - a critical element for many visa applications.
 
 #### Travel Insurance
 Embassy-approved travel insurance policies for Schengen, UK, and other destinations. We ensure your policy meets the minimum coverage requirements specified by the destination country.
@@ -256,4 +256,4 @@ A: We maintain a 97% visa approval success rate across all countries and visa ty
 A: Where available, we can facilitate express or priority processing for an additional fee. Not all countries offer this option, but we'll advise you on the fastest route for your specific visa type.
 
 **Q: How much do your services cost?**
-A: Our fees vary by visa type and destination. We provide a clear, upfront quote during your initial consultation with no hidden charges. Transparency is in our name — and in our pricing.
+A: Our fees vary by visa type and destination. We provide a clear, upfront quote during your initial consultation with no hidden charges. Transparency is in our name - and in our pricing.

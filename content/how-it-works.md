@@ -1,7 +1,7 @@
-# How It Works — Transparent Visas
+# How It Works - Transparent Visas
 
 ## META
-- **Title Tag:** How It Works | Simple 5-Step Visa Process — Transparent Visas
+- **Title Tag:** How It Works | Simple 5-Step Visa Process - Transparent Visas
 - **Meta Description:** Our visa application process is simple, transparent, and stress-free. Free consultation → profile assessment → document prep → application → approval. Start today.
 - **H1:** How It Works
 - **Canonical URL:** https://transparentvisas.com/how-it-works
@@ -18,7 +18,7 @@ YOUR JOURNEY WITH US
 How It Works
 
 ### Subtitle
-From your first consultation to your visa approval — we walk beside you at every step. No confusion, no guesswork, no anxiety. Just a clear, transparent process that puts your application in the best possible position.
+From your first consultation to your visa approval - we walk beside you at every step. No confusion, no guesswork, no anxiety. Just a clear, transparent process that puts your application in the best possible position.
 
 ---
 
@@ -38,7 +38,7 @@ STEP 01
 Free Consultation
 
 #### Body
-Everything begins with a conversation. Contact us via phone, WhatsApp, or email, and we'll discuss your travel plans, destination, and purpose of visit. We'll explain the visa type you need, the documents required, the estimated timeline, and our fees — all upfront, with no obligation.
+Everything begins with a conversation. Contact us via phone, WhatsApp, or email, and we'll discuss your travel plans, destination, and purpose of visit. We'll explain the visa type you need, the documents required, the estimated timeline, and our fees - all upfront, with no obligation.
 
 #### What You Get
 - Honest eligibility assessment
@@ -79,7 +79,7 @@ STEP 03
 Document Preparation
 
 #### Body
-This is where our expertise truly shines. We prepare, review, and compile every document your application needs — to the exact standard that embassies expect. We don't leave anything to chance.
+This is where our expertise truly shines. We prepare, review, and compile every document your application needs - to the exact standard that embassies expect. We don't leave anything to chance.
 
 #### What We Prepare
 - Application form filling and verification
@@ -122,7 +122,7 @@ STEP 05
 Tracking & Approval
 
 #### Body
-After submission, we actively track your application and keep you informed of its status. When your visa is approved, we also assist with post-approval needs — flight bookings, travel insurance, and any final travel preparations.
+After submission, we actively track your application and keep you informed of its status. When your visa is approved, we also assist with post-approval needs - flight bookings, travel insurance, and any final travel preparations.
 
 #### What Happens After Submission
 - Regular application status updates
@@ -157,7 +157,7 @@ Typical Processing Timelines
 Ready to Begin?
 
 ### Body
-The first step is always the easiest — just reach out. We'll guide you through everything from there.
+The first step is always the easiest - just reach out. We'll guide you through everything from there.
 
 ### CTA Primary
 Start Your Free Consultation →

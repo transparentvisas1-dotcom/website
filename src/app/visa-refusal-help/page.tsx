@@ -5,7 +5,7 @@ import { Phone, Mail, Landmark, Building2, MapPin, Compass, Globe2, Building } f
 import FAQAccordion from "@/components/FAQAccordion";
 
 export const metadata: Metadata = {
-  title: "Visa Refusal Help | UK Visa Refused? Expert Re-Application — Transparent Visas",
+  title: "Visa Refusal Help | UK Visa Refused? Expert Re-Application - Transparent Visas",
   description: "Visa refused? We specialise in visa refusal cases, especially UK visit visa rejections. Expert refusal analysis, documentation correction & high-success resubmission. Contact us.",
 };
 
@@ -27,7 +27,7 @@ export default function VisaRefusalHelpPage() {
             Visa Refused? We Can Help.
           </h1>
           <p className="font-body-lg text-white/90 max-w-3xl mx-auto">
-            A visa refusal is not the end — it's a second chance to get it right. We specialise in overturning visa refusals with expert analysis, stronger documentation, and a proven re-application strategy.
+            A visa refusal is not the end - it's a second chance to get it right. We specialise in overturning visa refusals with expert analysis, stronger documentation, and a proven re-application strategy.
           </p>
         </div>
       </section>
@@ -44,7 +44,7 @@ export default function VisaRefusalHelpPage() {
             At Transparent Visas, we have built a dedicated practice around visa refusal recovery. Our team analyses your refusal letter word by word, identifies every weakness in your previous application, and builds a fundamentally stronger case for resubmission.
           </p>
           <p className="font-body-md text-on-surface-variant text-left md:text-center">
-            We have a particularly strong track record with <strong className="text-on-surface">UK visit visa refusals</strong> — one of the most common and most complex refusal scenarios. Whether it's your first refusal or your third, we approach every case with the same rigour and determination.
+            We have a particularly strong track record with <strong className="text-on-surface">UK visit visa refusals</strong> - one of the most common and most complex refusal scenarios. Whether it's your first refusal or your third, we approach every case with the same rigour and determination.
           </p>
         </div>
       </section>
@@ -63,7 +63,7 @@ export default function VisaRefusalHelpPage() {
           {/* Step 1 */}
           <div className="md:col-span-5 md:text-right relative">
             <h3 className="font-label-md text-on-surface text-xl mb-3"><span className="text-burnished-gold mr-2 md:hidden">1.</span>Refusal Letter Analysis</h3>
-            <p className="font-body-md text-on-surface-variant">We obtain and carefully review your complete refusal notice. Every refusal letter contains specific reasons for the decision — we decode these and translate them into actionable items.</p>
+            <p className="font-body-md text-on-surface-variant">We obtain and carefully review your complete refusal notice. Every refusal letter contains specific reasons for the decision - we decode these and translate them into actionable items.</p>
           </div>
           <div className="hidden md:flex md:col-span-2 justify-center relative">
             <div className="w-12 h-12 rounded-full bg-obsidian-deep border-2 border-burnished-gold flex items-center justify-center text-burnished-gold font-headline-md text-xl z-10">1</div>
@@ -77,13 +77,13 @@ export default function VisaRefusalHelpPage() {
           </div>
           <div className="md:col-span-5 relative mt-8 md:mt-0">
             <h3 className="font-label-md text-on-surface text-xl mb-3"><span className="text-burnished-gold mr-2 md:hidden">2.</span>Previous Application Audit</h3>
-            <p className="font-body-md text-on-surface-variant">We review your entire previous application package — the form, the supporting documents, the cover letter, the financial evidence. We identify every gap, inconsistency, and weak point that contributed to the refusal.</p>
+            <p className="font-body-md text-on-surface-variant">We review your entire previous application package - the form, the supporting documents, the cover letter, the financial evidence. We identify every gap, inconsistency, and weak point that contributed to the refusal.</p>
           </div>
 
           {/* Step 3 */}
           <div className="md:col-span-5 md:text-right relative mt-8 md:mt-0">
             <h3 className="font-label-md text-on-surface text-xl mb-3"><span className="text-burnished-gold mr-2 md:hidden">3.</span>Strategy Development</h3>
-            <p className="font-body-md text-on-surface-variant">Based on our analysis, we develop a tailored re-application strategy. This isn't about resubmitting the same documents with minor tweaks — it's about building a completely new, stronger case that directly addresses every concern raised by the visa officer.</p>
+            <p className="font-body-md text-on-surface-variant">Based on our analysis, we develop a tailored re-application strategy. This isn't about resubmitting the same documents with minor tweaks - it's about building a completely new, stronger case that directly addresses every concern raised by the visa officer.</p>
           </div>
           <div className="hidden md:flex md:col-span-2 justify-center relative">
             <div className="w-12 h-12 rounded-full bg-obsidian-deep border-2 border-burnished-gold flex items-center justify-center text-burnished-gold font-headline-md text-xl z-10">3</div>
@@ -139,7 +139,7 @@ export default function VisaRefusalHelpPage() {
             </div>
             <div>
               <h4 className="font-label-md text-label-md text-champagne-highlight uppercase tracking-widest mb-2">Strong Documentation Correction</h4>
-              <p className="font-body-md text-on-surface-variant text-sm">Documentation is where most applications fail — and where we excel. We don't just fix errors; we rebuild your document package from the ground up with evidence that directly addresses each refusal reason.</p>
+              <p className="font-body-md text-on-surface-variant text-sm">Documentation is where most applications fail - and where we excel. We don't just fix errors; we rebuild your document package from the ground up with evidence that directly addresses each refusal reason.</p>
             </div>
             <div>
               <h4 className="font-label-md text-label-md text-champagne-highlight uppercase tracking-widest mb-2">Refusal Analysis & Strategy</h4>
@@ -147,7 +147,7 @@ export default function VisaRefusalHelpPage() {
             </div>
             <div>
               <h4 className="font-label-md text-label-md text-champagne-highlight uppercase tracking-widest mb-2">High Success Re-Submission Approach</h4>
-              <p className="font-body-md text-on-surface-variant text-sm">Our approach is built on 4+ years of experience and a deep understanding of immigration decision-making. We know when a case is ready for resubmission — and we know when it needs more time and preparation.</p>
+              <p className="font-body-md text-on-surface-variant text-sm">Our approach is built on 4+ years of experience and a deep understanding of immigration decision-making. We know when a case is ready for resubmission - and we know when it needs more time and preparation.</p>
             </div>
           </div>
         </div>
@@ -232,7 +232,7 @@ export default function VisaRefusalHelpPage() {
       <section className="py-24 px-margin-mobile md:px-margin-desktop w-full max-w-container-max mx-auto text-center border-t border-outline-variant/30">
         <h2 className="font-headline-md text-burnished-gold mb-6">Don't Let a Refusal Stop Your Journey</h2>
         <p className="font-body-lg text-on-surface-variant max-w-2xl mx-auto mb-10">
-          A visa refusal feels devastating — but it's not permanent. With the right guidance, the right documents, and the right strategy, your next application can succeed. We've helped dozens of clients overturn refusals and achieve their travel goals. Let us help you too.
+          A visa refusal feels devastating - but it's not permanent. With the right guidance, the right documents, and the right strategy, your next application can succeed. We've helped dozens of clients overturn refusals and achieve their travel goals. Let us help you too.
         </p>
         <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
           <Link

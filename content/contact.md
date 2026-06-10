@@ -1,7 +1,7 @@
-# Contact — Transparent Visas
+# Contact - Transparent Visas
 
 ## META
-- **Title Tag:** Contact Us | Get Expert Visa Help Today — Transparent Visas
+- **Title Tag:** Contact Us | Get Expert Visa Help Today - Transparent Visas
 - **Meta Description:** Contact Transparent Visas for expert visa consultation. Call +91 88917 44344, email transparentvisas@gmail.com, or WhatsApp us. Free consultation available.
 - **H1:** Contact Us
 - **Canonical URL:** https://transparentvisas.com/contact
@@ -18,7 +18,7 @@ GET IN TOUCH
 Contact Us
 
 ### Subtitle
-Have a question about your visa application? Need expert guidance? Reach out to us through any of the channels below. We respond quickly — because we know how much your journey matters.
+Have a question about your visa application? Need expert guidance? Reach out to us through any of the channels below. We respond quickly - because we know how much your journey matters.
 
 ---
 
@@ -38,10 +38,10 @@ Send us your query, destination, and any supporting details. We typically respon
 
 #### WhatsApp
 💬 **+91 88917 44344**
-The fastest way to reach us. Send a message anytime — we're quick in responses and always available to clarify your questions.
+The fastest way to reach us. Send a message anytime - we're quick in responses and always available to clarify your questions.
 
 #### Office Visit
-📍 **[Office Address — to be provided]**
+📍 **[Office Address - to be provided]**
 Prefer a face-to-face consultation? Visit our office during business hours. Appointment recommended for detailed case discussions.
 
 ---
@@ -81,7 +81,7 @@ Fill out the form below and we'll get back to you within 24 hours with a persona
 | Preferred Travel Date | Date picker | No |
 | Have you been refused a visa before? | Yes / No radio | Yes |
 | Additional Details | Textarea | No |
-| Submit Button | "Send Inquiry" | — |
+| Submit Button | "Send Inquiry" | - |
 
 ### Post-Submission Message
 Thank you for your inquiry! Our team will review your details and contact you within 24 hours with a personalised assessment. For immediate assistance, call us at +91 88917 44344.
@@ -111,4 +111,4 @@ Book Your Free Consultation →
 ## MAP SECTION
 
 ### Body
-*[Google Maps embed of office location — to be added when address is confirmed]*
+*[Google Maps embed of office location - to be added when address is confirmed]*

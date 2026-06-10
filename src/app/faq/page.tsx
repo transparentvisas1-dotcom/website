@@ -4,8 +4,8 @@ import { Metadata } from "next";
 import FAQAccordion from "@/components/FAQAccordion";
 
 export const metadata: Metadata = {
-  title: "FAQ | Common Visa Questions Answered — Transparent Visas",
-  description: "Find answers to common visa questions — processing times, document requirements, refusal recovery, fees, and more. Expert answers from Transparent Visas.",
+  title: "FAQ | Common Visa Questions Answered - Transparent Visas",
+  description: "Find answers to common visa questions - processing times, document requirements, refusal recovery, fees, and more. Expert answers from Transparent Visas.",
 };
 
 export default function FAQPage() {
@@ -67,11 +67,11 @@ export default function FAQPage() {
           </div>
           <div className="w-full lg:w-2/3">
             <FAQAccordion faqs={[
-              { question: "How do I start my visa application with you?", answer: "Simply contact us via phone/WhatsApp (+91 88917 44344) for a free consultation. We'll discuss your travel plans, assess your eligibility, explain the process, and provide a clear quote — all with no obligation." },
+              { question: "How do I start my visa application with you?", answer: "Simply contact us via phone/WhatsApp (+91 88917 44344) for a free consultation. We'll discuss your travel plans, assess your eligibility, explain the process, and provide a clear quote - all with no obligation." },
               { question: "What documents do I need for a visa application?", answer: "Document requirements vary, but typically include: Valid passport, photographs, bank statements, employment/business proof, ITR, travel itinerary, and purpose-of-visit evidence. We provide a detailed checklist tailored to your case." },
-              { question: "How long does the visa process take?", answer: "Processing times vary: Tourist Visas (1–3 weeks), Student & Work Visas (5–13 weeks), Business Visas (1–3 weeks), Refusal Re-applications (2–4 weeks). These are estimates — we provide a specific timeline for your case during consultation." },
+              { question: "How long does the visa process take?", answer: "Processing times vary: Tourist Visas (1–3 weeks), Student & Work Visas (5–13 weeks), Business Visas (1–3 weeks), Refusal Re-applications (2–4 weeks). These are estimates - we provide a specific timeline for your case during consultation." },
               { question: "Do you fill out the application form for me?", answer: "Yes. We handle the complete application form filling, review it for accuracy, and ensure every field is completed correctly. You review and approve before submission." },
-              { question: "Do I need to visit your office?", answer: "No — most of our work is done remotely via WhatsApp, email, and phone. However, if you prefer a face-to-face consultation, you are welcome to visit our office by appointment." }
+              { question: "Do I need to visit your office?", answer: "No - most of our work is done remotely via WhatsApp, email, and phone. However, if you prefer a face-to-face consultation, you are welcome to visit our office by appointment." }
             ]} />
           </div>
         </div>
@@ -114,7 +114,7 @@ export default function FAQPage() {
             <FAQAccordion faqs={[
               { question: "Can you help if my visa was previously refused?", answer: "Absolutely. Visa refusal recovery is one of our core specialisations. We analyse your refusal letter, audit your previous application, identify weaknesses, and build a significantly stronger resubmission." },
               { question: "How soon can I reapply after a refusal?", answer: "In most cases, you can reapply immediately. However, we strongly recommend taking adequate time to properly strengthen your application. Our typical preparation time for refusal cases is 5–10 working days." },
-              { question: "Will a previous refusal affect my new application?", answer: "Yes — visa officers can see your refusal history. This is precisely why the re-application must be substantially stronger than the original. Our strategy specifically addresses previous refusal reasons." },
+              { question: "Will a previous refusal affect my new application?", answer: "Yes - visa officers can see your refusal history. This is precisely why the re-application must be substantially stronger than the original. Our strategy specifically addresses previous refusal reasons." },
               { question: "Can you help with multiple refusals?", answer: "Yes. We have successfully overturned cases with two and three prior refusals. Multiple refusals require a more strategic approach and stronger documentation, but they are not insurmountable." }
             ]} />
           </div>

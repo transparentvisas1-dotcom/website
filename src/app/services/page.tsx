@@ -4,7 +4,7 @@ import { Metadata } from "next";
 import FAQAccordion from "@/components/FAQAccordion";
 
 export const metadata: Metadata = {
-  title: "Visa Services | Religious Visits, Passport & Attestation — Transparent Visas",
+  title: "Visa Services | Religious Visits, Passport & Attestation - Transparent Visas",
   description: "Expert services for Religious Visit Visas, standard visas, Passport services, and complete Document Attestation (PCC, HRD, MEA, WES).",
 };
 
@@ -26,7 +26,7 @@ export default function ServicesPage() {
             Our Primary Services
           </h1>
           <p className="font-body-lg text-white/90 max-w-3xl mx-auto">
-            End-to-end visa assistance, passport processing, and complete document attestation — all under one roof. Every service is delivered with transparency, precision, and personal attention.
+            End-to-end visa assistance, passport processing, and complete document attestation - all under one roof. Every service is delivered with transparency, precision, and personal attention.
           </p>
         </div>
       </section>

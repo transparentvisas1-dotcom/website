@@ -30,7 +30,7 @@ export default function Home() {
             {/* Pill Tag */}
             <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/20 text-white rounded-full px-4 py-1.5 text-xs font-label-md uppercase tracking-widest mb-6">
               <div className="w-2 h-2 rounded-full bg-[#B2D852]"></div>
-              Grow Your Global Reach.
+              Reach your dream country
             </div>
 
             {/* Main Title */}
@@ -70,7 +70,8 @@ export default function Home() {
                 We build reliable, transparent visa solutions tailored for religious leaders, students, and global travelers. Experience complete clarity in every step.
               </p>
               <Link href="https://wa.me/918891744344" target="_blank" rel="noopener noreferrer" className="bg-white text-obsidian-deep px-6 py-3 rounded-full font-label-md text-sm uppercase tracking-widest hover:bg-burnished-gold hover:text-white transition-colors duration-300 shadow-xl flex items-center gap-2">
-                Start Application <span className="material-symbols-outlined text-[16px]">arrow_forward</span>
+                <span className="md:hidden">Let us talk</span>
+                <span className="hidden md:inline">Start Application</span> <span className="material-symbols-outlined text-[16px]">arrow_forward</span>
               </Link>
             </div>
 
@@ -154,7 +155,7 @@ export default function Home() {
               <div className="max-w-md">
                 <span className="material-symbols-outlined text-error text-[32px] mb-4 block">gpp_bad</span>
                 <h3 className="font-headline-md text-headline-md text-on-surface mb-2">Visa Refusal? No Problem.</h3>
-                <p className="font-body-md text-body-md text-on-surface-variant text-sm line-clamp-2">We specialise in overturning refusals — especially UK visit visa rejections. We analyse, correct, and resubmit for success.</p>
+                <p className="font-body-md text-body-md text-on-surface-variant text-sm line-clamp-2">We specialise in overturning refusals - especially UK visit visa rejections. We analyse, correct, and resubmit for success.</p>
               </div>
             </div>
           </Link>
@@ -187,7 +188,7 @@ export default function Home() {
                 <span className="material-symbols-outlined text-[28px]">person_check</span>
               </div>
               <h4 className="font-label-md text-label-md text-on-surface uppercase tracking-widest mb-3">Personalised Guidance</h4>
-              <p className="font-body-md text-on-surface-variant text-sm leading-relaxed">Every applicant is unique. We customise our approach to your specific situation — your nationality, travel history, financial profile, and purpose of travel all inform our strategy.</p>
+              <p className="font-body-md text-on-surface-variant text-sm leading-relaxed">Every applicant is unique. We customise our approach to your specific situation - your nationality, travel history, financial profile, and purpose of travel all inform our strategy.</p>
             </div>
             <div className="bg-charcoal-surface rounded-2xl p-8 border border-outline-variant/30 glow-hover flex flex-col">
               <div className="w-14 h-14 rounded-2xl bg-burnished-gold/10 flex items-center justify-center text-burnished-gold mb-8">
@@ -201,7 +202,7 @@ export default function Home() {
                 <span className="material-symbols-outlined text-[28px]">support_agent</span>
               </div>
               <h4 className="font-label-md text-label-md text-on-surface uppercase tracking-widest mb-3">Always Available</h4>
-              <p className="font-body-md text-on-surface-variant text-sm leading-relaxed">Have a question at 9 PM? Need clarity before your interview? We are always reachable — quick in responses, clear in communication, and dedicated to your peace of mind.</p>
+              <p className="font-body-md text-on-surface-variant text-sm leading-relaxed">Have a question at 9 PM? Need clarity before your interview? We are always reachable - quick in responses, clear in communication, and dedicated to your peace of mind.</p>
             </div>
           </div>
         </div>
