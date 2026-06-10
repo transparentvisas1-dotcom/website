@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import Image from "next/image";
 import { FaStar, FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const REVIEWS = [
@@ -59,7 +60,7 @@ export default function ClientReviews() {
         {/* Header Section */}
         <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-8">
           <div className="max-w-3xl">
-            <h2 className="kaisei-decol-regular text-[42px] md:text-[56px] leading-[1.1] mb-6 text-on-surface">
+            <h2 className="kaisei-decol-regular text-fluid-h1 leading-[1.1] mb-6 text-on-surface">
               Build Trust By Serving.
             </h2>
             <p className="font-body-md text-[18px] text-on-surface-variant max-w-2xl leading-relaxed">
@@ -113,7 +114,7 @@ export default function ClientReviews() {
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full flex-shrink-0 overflow-hidden relative">
                    {review.image ? (
-                     <img src={review.image} alt={review.name} className="absolute inset-0 w-full h-full object-cover" />
+                     <Image src={review.image} alt={review.name} fill sizes="48px" className="absolute inset-0 object-cover" />
                    ) : (
                      <div className="w-full h-full bg-gradient-to-br from-burnished-gold to-champagne-highlight flex items-center justify-center font-bold text-obsidian-deep text-lg">
                        {review.name.charAt(0)}

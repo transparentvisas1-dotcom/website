@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Metadata } from "next";
 import FAQAccordion from "@/components/FAQAccordion";
 
@@ -13,7 +14,7 @@ export default function ServicesPage() {
       {/* Header Banner */}
       <section className="relative w-full h-[400px] md:h-[500px] flex flex-col justify-center items-center text-center mb-24 px-margin-mobile md:px-margin-desktop overflow-hidden border-b border-burnished-gold/10">
         <div className="absolute inset-0 z-0">
-          <img src="/religious-visa.jpg" alt="Services Banner" className="w-full h-full object-cover object-center opacity-40" />
+          <Image src="/religious-visa.jpg" alt="Services Banner" fill sizes="100vw" priority className="object-cover object-center opacity-40" />
           <div className="absolute inset-0 bg-gradient-to-t from-obsidian-deep via-obsidian-deep/60 to-transparent"></div>
           <div className="absolute inset-0 bg-gradient-to-b from-obsidian-deep/80 via-transparent to-transparent"></div>
         </div>
@@ -21,7 +22,7 @@ export default function ServicesPage() {
           <span className="font-label-md text-label-md text-champagne-highlight uppercase tracking-[0.2em] opacity-80 border-b border-champagne-highlight/30 pb-2 inline-block mb-6">
             COMPREHENSIVE SOLUTIONS
           </span>
-          <h1 className="kaisei-decol-regular text-[40px] md:text-6xl lg:text-7xl text-burnished-gold mb-6">
+          <h1 className="kaisei-decol-regular text-fluid-display text-burnished-gold mb-6">
             Our Primary Services
           </h1>
           <p className="font-body-lg text-white/90 max-w-3xl mx-auto">
@@ -35,8 +36,13 @@ export default function ServicesPage() {
         
         {/* Service 1: Visa Services (Mainly Religious) */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
-          <div className="bg-charcoal-surface border border-outline-variant/30 rounded-xl p-8 lg:p-12 glow-hover sticky top-32">
-            <span className="material-symbols-outlined text-burnished-gold text-[48px] mb-6 block">flight_takeoff</span>
+          <div className="relative bg-charcoal-surface border border-outline-variant/30 rounded-xl p-8 lg:p-12 glow-hover md:sticky md:top-32 overflow-hidden group">
+            <div className="absolute inset-0 z-0">
+              <Image src="/visit-visa.jpg" alt="Visa Services" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover opacity-20 group-hover:scale-105 transition-transform duration-700" />
+            </div>
+            <div className="absolute inset-0 bg-gradient-to-br from-obsidian-deep/90 via-obsidian-deep/50 to-transparent z-10"></div>
+            <div className="relative z-20">
+              <span className="material-symbols-outlined text-burnished-gold text-[48px] mb-6 block">flight_takeoff</span>
             <h2 className="font-headline-lg-mobile text-on-surface mb-6">Visa Services</h2>
             <h3 className="font-label-md text-champagne-highlight uppercase tracking-widest mb-4">Specialising in Religious Visits</h3>
             <p className="font-body-md text-on-surface-variant mb-4">
@@ -45,9 +51,10 @@ export default function ServicesPage() {
             <p className="font-body-md text-on-surface-variant mb-8">
               Beyond religious travel, we also process standard Tourist, Work, and Student visas, managing everything from eligibility assessment to application submission and tracking.
             </p>
-            <Link href="/contact" className="text-champagne-highlight font-label-md uppercase tracking-widest border-b border-champagne-highlight/30 pb-1 hover:border-champagne-highlight transition-all inline-flex items-center gap-2">
+            <Link href="https://wa.me/918891744344" target="_blank" rel="noopener noreferrer" className="text-champagne-highlight font-label-md uppercase tracking-widest border-b border-champagne-highlight/30 pb-1 hover:border-champagne-highlight transition-all inline-flex items-center gap-2">
               Apply for a Visa <span className="material-symbols-outlined text-[18px]">arrow_forward</span>
             </Link>
+            </div>
           </div>
           <div className="pt-4 md:pt-12">
             <h3 className="font-label-md text-burnished-gold uppercase tracking-widest mb-6">Countries Covered</h3>
@@ -75,8 +82,10 @@ export default function ServicesPage() {
 
         {/* Service 2: Passport Services */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
-          <div className="bg-charcoal-surface border border-outline-variant/30 rounded-xl p-8 lg:p-12 glow-hover sticky top-32 md:order-last relative overflow-hidden group">
-            <img src="/passport.jpg" alt="Passport Services" className="absolute inset-0 w-full h-full object-cover opacity-20 group-hover:scale-105 transition-transform duration-700" />
+          <div className="relative bg-charcoal-surface border border-outline-variant/30 rounded-xl p-8 lg:p-12 glow-hover md:sticky md:top-32 md:order-last overflow-hidden group">
+            <div className="absolute inset-0 z-0">
+              <Image src="/passport.jpg" alt="Passport Services" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover opacity-20 group-hover:scale-105 transition-transform duration-700" />
+            </div>
             <div className="absolute inset-0 bg-gradient-to-br from-obsidian-deep/90 via-obsidian-deep/50 to-transparent z-10"></div>
             <div className="relative z-20">
               <span className="material-symbols-outlined text-burnished-gold text-[48px] mb-6 block">menu_book</span>
@@ -87,7 +96,7 @@ export default function ServicesPage() {
               <p className="font-body-md text-on-surface-variant mb-8">
                 Our experts guide you through the appointment booking, documentation requirements, and police verification procedures required for Indian passports.
               </p>
-              <Link href="/contact" className="text-champagne-highlight font-label-md uppercase tracking-widest border-b border-champagne-highlight/30 pb-1 hover:border-champagne-highlight transition-all inline-flex items-center gap-2">
+              <Link href="https://wa.me/918891744344" target="_blank" rel="noopener noreferrer" className="text-champagne-highlight font-label-md uppercase tracking-widest border-b border-champagne-highlight/30 pb-1 hover:border-champagne-highlight transition-all inline-flex items-center gap-2">
                 Get Passport Help <span className="material-symbols-outlined text-[18px]">arrow_forward</span>
               </Link>
             </div>
@@ -108,8 +117,10 @@ export default function ServicesPage() {
 
         {/* Service 3: Document Attestation */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
-          <div className="bg-charcoal-surface border border-outline-variant/30 rounded-xl p-8 lg:p-12 glow-hover sticky top-32 relative overflow-hidden group">
-            <img src="/documentations.jpg" alt="Document Attestation" className="absolute inset-0 w-full h-full object-cover opacity-20 group-hover:scale-105 transition-transform duration-700" />
+          <div className="relative bg-charcoal-surface border border-outline-variant/30 rounded-xl p-8 lg:p-12 glow-hover md:sticky md:top-32 overflow-hidden group">
+            <div className="absolute inset-0 z-0">
+              <Image src="/documentations.jpg" alt="Document Attestation" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover opacity-20 group-hover:scale-105 transition-transform duration-700" />
+            </div>
             <div className="absolute inset-0 bg-gradient-to-br from-obsidian-deep/90 via-obsidian-deep/50 to-transparent z-10"></div>
             <div className="relative z-20">
               <span className="material-symbols-outlined text-burnished-gold text-[48px] mb-6 block">verified</span>
@@ -120,7 +131,7 @@ export default function ServicesPage() {
               <p className="font-body-md text-on-surface-variant mb-8">
                 From state HRD to Ministry of External Affairs and final Embassy legalization, we take the hassle out of complex bureaucratic procedures.
               </p>
-              <Link href="/contact" className="text-champagne-highlight font-label-md uppercase tracking-widest border-b border-champagne-highlight/30 pb-1 hover:border-champagne-highlight transition-all inline-flex items-center gap-2">
+              <Link href="https://wa.me/918891744344" target="_blank" rel="noopener noreferrer" className="text-champagne-highlight font-label-md uppercase tracking-widest border-b border-champagne-highlight/30 pb-1 hover:border-champagne-highlight transition-all inline-flex items-center gap-2">
                 Start Attestation <span className="material-symbols-outlined text-[18px]">arrow_forward</span>
               </Link>
             </div>
@@ -148,7 +159,7 @@ export default function ServicesPage() {
         </p>
         <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
           <Link
-            href="/contact"
+            href="https://wa.me/918891744344" target="_blank" rel="noopener noreferrer"
             className="bg-burnished-gold text-obsidian-deep font-label-md uppercase tracking-widest px-8 py-4 rounded-DEFAULT hover:bg-champagne-highlight transition-colors duration-300"
           >
             Contact Us Today →
@@ -159,9 +170,9 @@ export default function ServicesPage() {
       {/* FAQ Section */}
       <section className="py-[120px] md:py-[160px] relative border-t border-outline-variant/20 bg-obsidian-deep px-margin-mobile md:px-margin-desktop">
         <div className="w-full max-w-container-max mx-auto flex flex-col lg:flex-row gap-16 items-start">
-          <div className="w-full lg:w-1/3 sticky top-32">
-            <h2 className="kaisei-decol-regular text-[42px] md:text-[56px] leading-[1.1] mb-6 text-on-surface">
-              Service FAQs
+          <div className="w-full lg:w-1/3 lg:sticky lg:top-32">
+            <h2 className="kaisei-decol-regular text-fluid-h1 leading-[1.1] mb-6 text-on-surface">
+              FAQs
             </h2>
             <p className="font-body-md text-[18px] text-on-surface-variant leading-relaxed">
               Common questions about our visa, passport, and document attestation services.

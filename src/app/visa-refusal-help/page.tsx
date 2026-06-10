@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Metadata } from "next";
 import { Phone, Mail, Landmark, Building2, MapPin, Compass, Globe2, Building } from "lucide-react";
 import FAQAccordion from "@/components/FAQAccordion";
@@ -14,7 +15,7 @@ export default function VisaRefusalHelpPage() {
       {/* Header Banner */}
       <section className="relative w-full h-[400px] md:h-[500px] flex flex-col justify-center items-center text-center mb-24 px-margin-mobile md:px-margin-desktop overflow-hidden border-b border-error/10">
         <div className="absolute inset-0 z-0">
-          <img src="/visa-refusal-solving.jpg" alt="Visa Refusal Help Banner" className="w-full h-full object-cover object-center opacity-40" />
+          <Image src="/visa-refusal-solving.jpg" alt="Visa Refusal Help Banner" fill sizes="100vw" priority className="object-cover object-center opacity-40" />
           <div className="absolute inset-0 bg-gradient-to-t from-obsidian-deep via-obsidian-deep/60 to-transparent"></div>
           <div className="absolute inset-0 bg-gradient-to-b from-obsidian-deep/80 via-transparent to-transparent"></div>
         </div>
@@ -22,7 +23,7 @@ export default function VisaRefusalHelpPage() {
           <span className="font-label-md text-label-md text-error uppercase tracking-[0.2em] opacity-90 border-b border-error/30 pb-2 inline-block mb-6">
             REFUSAL RECOVERY SPECIALISTS
           </span>
-          <h1 className="kaisei-decol-regular text-[40px] md:text-6xl lg:text-7xl text-burnished-gold mb-6">
+          <h1 className="kaisei-decol-regular text-fluid-display text-burnished-gold mb-6">
             Visa Refused? We Can Help.
           </h1>
           <p className="font-body-lg text-white/90 max-w-3xl mx-auto">
@@ -122,7 +123,7 @@ export default function VisaRefusalHelpPage() {
       {/* Why We Succeed */}
       <section className="py-[120px] relative border-t border-b border-outline-variant/20 bg-surface-dim mb-24">
         <div className="w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop relative z-10 flex flex-col md:flex-row gap-16">
-          <div className="w-full md:w-1/3 space-y-8 sticky top-32 h-fit">
+          <div className="w-full md:w-1/3 space-y-8 md:sticky md:top-32 h-fit">
             <span className="font-label-md text-label-md text-burnished-gold uppercase tracking-[0.2em] border-b border-burnished-gold/30 pb-2 inline-block">
               WHAT MAKES US DIFFERENT
             </span>
@@ -146,7 +147,7 @@ export default function VisaRefusalHelpPage() {
             </div>
             <div>
               <h4 className="font-label-md text-label-md text-champagne-highlight uppercase tracking-widest mb-2">High Success Re-Submission Approach</h4>
-              <p className="font-body-md text-on-surface-variant text-sm">Our approach is built on 6+ years of experience and a deep understanding of immigration decision-making. We know when a case is ready for resubmission — and we know when it needs more time and preparation.</p>
+              <p className="font-body-md text-on-surface-variant text-sm">Our approach is built on 4+ years of experience and a deep understanding of immigration decision-making. We know when a case is ready for resubmission — and we know when it needs more time and preparation.</p>
             </div>
           </div>
         </div>
@@ -210,9 +211,9 @@ export default function VisaRefusalHelpPage() {
       {/* FAQ Section */}
       <section className="py-[120px] md:py-[160px] relative border-t border-outline-variant/20 bg-obsidian-deep px-margin-mobile md:px-margin-desktop">
         <div className="w-full max-w-container-max mx-auto flex flex-col lg:flex-row gap-16 items-start">
-          <div className="w-full lg:w-1/3 sticky top-32">
-            <h2 className="kaisei-decol-regular text-[42px] md:text-[56px] leading-[1.1] mb-6 text-on-surface">
-              Refusal FAQs
+          <div className="w-full lg:w-1/3 lg:sticky lg:top-32">
+            <h2 className="kaisei-decol-regular text-fluid-h1 leading-[1.1] mb-6 text-on-surface">
+              FAQs
             </h2>
             <p className="font-body-md text-[18px] text-on-surface-variant leading-relaxed">
               Common questions about overturned visa applications.
@@ -235,7 +236,7 @@ export default function VisaRefusalHelpPage() {
         </p>
         <div className="flex flex-col sm:flex-row justify-center items-center gap-6">
           <Link
-            href="/contact"
+            href="https://wa.me/918891744344" target="_blank" rel="noopener noreferrer"
             className="bg-burnished-gold text-obsidian-deep font-label-md uppercase tracking-widest px-8 py-4 rounded-DEFAULT hover:bg-champagne-highlight transition-colors duration-300"
           >
             Get Refusal Help Today →

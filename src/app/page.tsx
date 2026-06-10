@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Phone, Mail } from "lucide-react";
 import ClientReviews from "@/components/ClientReviews";
 import FAQAccordion from "@/components/FAQAccordion";
@@ -7,20 +8,23 @@ export default function Home() {
   return (
     <main>
       {/* Hero Section */}
-      <section className="relative h-screen w-full overflow-hidden">
+      <section className="relative min-h-[100svh] w-full overflow-hidden flex flex-col justify-end pb-4 md:pb-8 pt-20 md:pt-24">
         {/* Background Image & Overlay */}
         <div className="absolute inset-0 z-0">
-          <img
+          <Image
             alt="Hero Background"
-            className="w-full h-full object-cover object-center opacity-50"
+            className="object-cover object-center opacity-50"
             src="/hero-image.jpg"
+            fill
+            sizes="100vw"
+            priority
           />
           <div className="absolute inset-0 bg-gradient-to-r from-obsidian-deep/90 via-obsidian-deep/40 to-transparent"></div>
           <div className="absolute inset-0 bg-gradient-to-t from-obsidian-deep via-transparent to-transparent"></div>
         </div>
 
         {/* Main Content (Left Aligned) */}
-        <div className="relative z-10 w-full max-w-container-max mx-auto h-full flex flex-col justify-center px-margin-mobile md:px-margin-desktop pt-16 pb-40">
+        <div className="relative z-10 w-full max-w-container-max mx-auto flex-grow flex flex-col justify-center px-margin-mobile md:px-margin-desktop mb-4 md:mb-6">
           
           <div className="max-w-4xl">
             {/* Pill Tag */}
@@ -30,7 +34,7 @@ export default function Home() {
             </div>
 
             {/* Main Title */}
-            <h1 className="kaisei-decol-regular text-[42px] md:text-[60px] lg:text-[76px] text-white leading-[1.1] tracking-tight mb-8">
+            <h1 className="kaisei-decol-regular text-fluid-display text-white leading-[1.1] tracking-tight mb-4">
               Your Trusted Partner <br />
               For Religious & Global <br />
               <span className="text-burnished-gold">Visa Solutions</span>
@@ -39,18 +43,18 @@ export default function Home() {
         </div>
 
         {/* Floating Bottom Elements */}
-        <div className="absolute bottom-0 left-0 w-full z-20 pointer-events-none">
-          <div className="w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop flex flex-col md:flex-row justify-between items-end">
+        <div className="relative z-20 w-full pointer-events-none mt-auto">
+          <div className="w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop flex flex-col md:flex-row justify-between items-end pb-4 md:pb-0">
             
             {/* Left Card */}
-            <div className="bg-[#fcfaf5] text-obsidian-deep rounded-t-3xl md:rounded-3xl p-6 md:p-8 w-full md:w-[380px] pointer-events-auto shadow-2xl md:mb-10 relative overflow-hidden group">
+            <div className="bg-[#fcfaf5] text-obsidian-deep rounded-t-3xl md:rounded-3xl p-4 md:p-6 w-full md:w-[380px] pointer-events-auto shadow-2xl md:mb-4 relative overflow-hidden group">
               <div className="absolute top-0 right-0 w-32 h-32 bg-burnished-gold/5 rounded-bl-full -mr-8 -mt-8 transition-transform group-hover:scale-110"></div>
               <div className="relative z-10">
-                <div className="text-4xl md:text-5xl kaisei-decol-regular mb-1 font-bold tracking-tighter">300+</div>
+                <div className="text-3xl md:text-4xl kaisei-decol-regular mb-1 font-bold tracking-tighter">300+</div>
               <div className="text-[10px] font-label-md text-obsidian-deep/50 uppercase tracking-widest">Cases Successfully Handled</div>
               <div className="mt-5 border-t border-obsidian-deep/10 pt-5 flex items-center justify-between">
                 <div>
-                  <div className="text-lg font-bold font-headline-md">6+ Years</div>
+                  <div className="text-lg font-bold font-headline-md">4+ Years</div>
                   <div className="text-[11px] text-obsidian-deep/50 font-body-md mt-0.5">Of Immigration Excellence</div>
                 </div>
                 <div className="text-burnished-gold bg-burnished-gold/10 p-2 rounded-full">
@@ -61,11 +65,11 @@ export default function Home() {
             </div>
             
             {/* Right Content */}
-            <div className="pb-8 md:pb-12 flex flex-col items-start md:items-end text-left md:text-right w-full md:w-[400px] pointer-events-auto mt-4 md:mt-0">
-              <p className="text-white/80 font-body-md mb-6 leading-relaxed hidden md:block">
+            <div className="pb-0 flex flex-col items-start md:items-end text-left md:text-right w-full md:w-[400px] pointer-events-auto mt-4 md:mt-0">
+              <p className="text-white/80 font-body-md mb-4 leading-relaxed hidden md:block text-sm">
                 We build reliable, transparent visa solutions tailored for religious leaders, students, and global travelers. Experience complete clarity in every step.
               </p>
-              <Link href="/contact" className="bg-white text-obsidian-deep px-6 py-3 rounded-full font-label-md text-sm uppercase tracking-widest hover:bg-burnished-gold hover:text-white transition-colors duration-300 shadow-xl flex items-center gap-2">
+              <Link href="https://wa.me/918891744344" target="_blank" rel="noopener noreferrer" className="bg-white text-obsidian-deep px-6 py-3 rounded-full font-label-md text-sm uppercase tracking-widest hover:bg-burnished-gold hover:text-white transition-colors duration-300 shadow-xl flex items-center gap-2">
                 Start Application <span className="material-symbols-outlined text-[16px]">arrow_forward</span>
               </Link>
             </div>
@@ -86,7 +90,7 @@ export default function Home() {
         <div className="px-margin-mobile md:px-margin-desktop w-full max-w-container-max mx-auto relative z-10">
           <div className="flex flex-col md:flex-row justify-between items-end mb-16 space-y-6 md:space-y-0">
           <div className="max-w-3xl">
-            <h2 className="kaisei-decol-regular text-[42px] md:text-[56px] leading-[1.1] mb-6 text-on-surface">
+            <h2 className="kaisei-decol-regular text-fluid-h1 leading-[1.1] mb-6 text-on-surface">
               Visa, Passport & Attestation Services.
             </h2>
             <p className="font-body-md text-[18px] text-on-surface-variant max-w-2xl leading-relaxed">
@@ -104,7 +108,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-gutter auto-rows-[300px] md:auto-rows-[400px]">
           {/* Card 1: Large Featured */}
           <Link href="/services" className="md:col-span-8 relative group overflow-hidden rounded-xl bg-charcoal-surface border-t border-l border-outline-variant/30 glow-hover transition-all duration-500 cursor-pointer block">
-            <img src="/religious-visa.jpg" alt="Religious Visas" className="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:scale-105 transition-transform duration-700" />
+            <Image src="/religious-visa.jpg" alt="Religious Visas" fill sizes="(max-width: 768px) 100vw, 66vw" className="object-cover opacity-50 group-hover:scale-105 transition-transform duration-700" />
             <div className="absolute inset-0 bg-gradient-to-t from-obsidian-deep via-obsidian-deep/70 to-transparent z-10"></div>
             <div className="absolute bottom-0 left-0 p-8 w-full flex justify-between items-end z-20">
               <div className="max-w-md">
@@ -120,7 +124,7 @@ export default function Home() {
 
           {/* Card 2: Vertical */}
           <Link href="/services" className="md:col-span-4 relative group overflow-hidden rounded-xl bg-charcoal-surface border-t border-outline-variant/30 glow-hover transition-all duration-500 cursor-pointer block">
-            <img src="/passport.jpg" alt="Passport Services" className="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:scale-105 transition-transform duration-700" />
+            <Image src="/passport.jpg" alt="Passport Services" fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover opacity-50 group-hover:scale-105 transition-transform duration-700" />
             <div className="absolute inset-0 bg-gradient-to-t from-obsidian-deep via-obsidian-deep/80 to-transparent z-10"></div>
             <div className="absolute bottom-0 left-0 p-8 w-full z-20">
               <span className="material-symbols-outlined text-burnished-gold text-[32px] mb-4 block">menu_book</span>
@@ -131,7 +135,7 @@ export default function Home() {
 
           {/* Card 3: Small Horizontal */}
           <Link href="/services" className="md:col-span-6 relative group overflow-hidden rounded-xl bg-charcoal-surface border-l border-outline-variant/30 glow-hover transition-all duration-500 cursor-pointer block">
-            <img src="/documentations.jpg" alt="Document Attestation" className="absolute inset-0 w-full h-full object-cover opacity-30 group-hover:scale-105 transition-transform duration-700" />
+            <Image src="/documentations.jpg" alt="Document Attestation" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover opacity-30 group-hover:scale-105 transition-transform duration-700" />
             <div className="absolute inset-0 bg-gradient-to-t from-obsidian-deep via-obsidian-deep/80 to-transparent z-10"></div>
             <div className="absolute bottom-0 left-0 p-8 w-full z-20">
               <div className="max-w-md">
@@ -144,7 +148,7 @@ export default function Home() {
 
           {/* Card 4: Small Horizontal */}
           <Link href="/visa-refusal-help" className="md:col-span-6 relative group overflow-hidden rounded-xl bg-charcoal-surface border border-outline-variant/20 glow-hover transition-all duration-500 cursor-pointer block">
-            <img src="/visa-refusal-solving.jpg" alt="Visa Refusal Help" className="absolute inset-0 w-full h-full object-cover opacity-30 group-hover:scale-105 transition-transform duration-700" />
+            <Image src="/visa-refusal-solving.jpg" alt="Visa Refusal Help" fill sizes="(max-width: 768px) 100vw, 50vw" className="object-cover opacity-30 group-hover:scale-105 transition-transform duration-700" />
             <div className="absolute inset-0 bg-gradient-to-t from-obsidian-deep/90 to-transparent z-10"></div>
             <div className="absolute bottom-0 left-0 p-8 w-full z-20">
               <div className="max-w-md">
@@ -162,7 +166,7 @@ export default function Home() {
       <section className="py-[120px] md:py-[160px] relative border-t border-outline-variant/20 bg-surface-dim">
         <div className="w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop relative z-10">
           <div className="max-w-3xl mb-16">
-            <h2 className="kaisei-decol-regular text-[42px] md:text-[56px] leading-[1.1] mb-6 text-on-surface">
+            <h2 className="kaisei-decol-regular text-fluid-h1 leading-[1.1] mb-6 text-on-surface">
               Why Thousands Trust Us With Their Global Dreams.
             </h2>
             <p className="font-body-md text-[18px] text-on-surface-variant max-w-2xl leading-relaxed">
@@ -209,9 +213,9 @@ export default function Home() {
       {/* FAQ Section */}
       <section className="py-[120px] md:py-[160px] relative border-t border-outline-variant/20 bg-obsidian-deep">
         <div className="w-full max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop relative z-10 flex flex-col lg:flex-row gap-16 items-start">
-          <div className="w-full lg:w-1/3 sticky top-32">
-            <h2 className="kaisei-decol-regular text-[42px] md:text-[56px] leading-[1.1] mb-6 text-on-surface">
-              We've pulled together some basics to help you get started.
+          <div className="w-full lg:w-1/3 lg:sticky lg:top-32">
+            <h2 className="kaisei-decol-regular text-fluid-h1 leading-[1.1] mb-6 text-on-surface">
+              FAQs
             </h2>
             <p className="font-body-md text-[18px] text-on-surface-variant leading-relaxed">
               Everything you need to know about our visa services, processing times, and documentation requirements before you apply.
@@ -220,7 +224,7 @@ export default function Home() {
           <div className="w-full lg:w-2/3">
             <FAQAccordion faqs={[
               { question: "What types of visas do you handle?", answer: "We specialise in a wide range of visas including Tourist, Visit, Student, Work, Business, and Dependent visas for major countries like the UK, Canada, USA, Australia, Schengen countries, and New Zealand. Our primary specialty is handling religious visits for church leaders and congregations." },
-              { question: "Do you help with visa refusal cases?", answer: "Yes, absolutely. We have a 97% success rate in handling visa refusal cases, particularly UK visit visa rejections. We meticulously analyse the reasons for refusal, correct the documentation, and build a strong strategy for high-success resubmission." },
+              { question: "Do you help with visa refusal cases?", answer: "Yes, absolutely. We have a 93% success rate in handling visa refusal cases, particularly UK visit visa rejections. We meticulously analyse the reasons for refusal, correct the documentation, and build a strong strategy for high-success resubmission." },
               { question: "What is included in your documentation support?", answer: "Documentation is the most critical part of any visa application. We provide comprehensive support including reviewing, correcting, and translating your documents. We also handle full document attestation services (HRD, MEA, Embassy legalization, WES & ICAS)." },
               { question: "Do you assist with ticketing and travel insurance?", answer: "Yes, we provide end-to-end travel solutions. Beyond just securing your visa, we offer comprehensive flight ticketing services, travel insurance tailored to your destination's requirements, CA valuation assistance, and ITR filing assistance." }
             ]} />
@@ -231,16 +235,18 @@ export default function Home() {
       {/* Pre-footer CTA */}
       <section className="py-24 px-margin-mobile md:px-margin-desktop w-full max-w-container-max mx-auto border-t border-outline-variant/30 flex flex-col md:flex-row justify-between items-center gap-12">
         <div className="max-w-3xl">
-          <h2 className="kaisei-decol-regular text-[42px] md:text-[56px] leading-[1.1] mb-6 text-on-surface">
+          <h2 className="kaisei-decol-regular text-fluid-h1 leading-[1.1] mb-6 text-on-surface">
             Ready to Start Your Journey?
           </h2>
           <p className="font-body-md text-[18px] text-on-surface-variant max-w-2xl leading-relaxed">
-            Don't let complex paperwork delay your goals. Contact our immigration experts today for a free consultation and secure your travel plans with confidence.
+            Don't let complex paperwork delay your goals. Contact our visa experts today for a free consultation and secure your travel plans with confidence.
           </p>
         </div>
         <div className="flex flex-col items-start md:items-end gap-6 flex-shrink-0">
           <Link
-            href="/contact"
+            href="https://wa.me/918891744344"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-burnished-gold text-obsidian-deep font-label-md uppercase tracking-widest px-8 py-4 rounded-DEFAULT hover:bg-champagne-highlight transition-colors duration-300"
           >
             Contact Us Today →
